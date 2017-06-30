@@ -1,6 +1,6 @@
 ---
 id: 396
-title: 'SMACSS &#8211; 유연하고 모듈화된 CSS 방법론 학습 &#8211; 들어가며'
+title: 'SMACSS - 유연하고 모듈화된 CSS 방법론 학습 - 들어가며'
 date: 2013-04-30T18:24:56+00:00
 author: 노동자 연대 웹마스터
 layout: post
