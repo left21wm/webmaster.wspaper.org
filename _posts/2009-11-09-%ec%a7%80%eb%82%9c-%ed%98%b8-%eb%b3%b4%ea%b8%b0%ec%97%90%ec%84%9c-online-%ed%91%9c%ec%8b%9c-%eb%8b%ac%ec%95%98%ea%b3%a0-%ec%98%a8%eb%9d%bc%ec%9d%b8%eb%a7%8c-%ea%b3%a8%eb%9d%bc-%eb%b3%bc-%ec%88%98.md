@@ -1,0 +1,121 @@
+---
+id: 142
+title: 지난 호 보기에서 online 표시 달았고, 온라인만 골라 볼 수 있게 했음
+date: 2009-11-09T07:18:00+00:00
+author: 노동자 연대 웹마스터
+layout: post
+guid: http://work.local/webmaster/?p=142
+permalink: /archives/142
+tistory_id:
+  - 48
+categories:
+  - 사이트 이용안내
+tags:
+  - jQuery
+  - 온라인 기사
+---
+최근 <레프트21>에 매일 같이 올라가는 온라인 기사의 수가 늘어났죠.
+
+최근 3주 간의 방문자 수 증가가 그것과 연관된 것인지 분석하기 위해서 각 호수별 온라인 기사의 개수, 날짜별로 올라온 온라인 기사의 개수 등을 분석하고 있었습니다.
+
+## 지난 호 보기에서 온라인 표시가 없었다
+
+그런데 왠걸, 지난 호 보기에서 온라인 기사의 표시가 없는 것이었습니다! (두둥~)
+
+그래서 잠깐 짬을 내 과감하게 온라인 기사 표시를 했습니다.
+
+당장 제가 필요했기 때문입니다.
+
+## 왜 필요했나
+
+예컨대 <레프트21> 9호는 유난히 온라인 기사의 개수가 많습니다.
+
+이 때 어떤 일이 있었길래 이렇게 온라인 기사 개수가 많은지 파악하려면 단순 통계만 가지고는 안 되겠죠.
+
+지금 보니까 이란 민중항쟁과 쌍용차 진압이 있었던 호수입니다. 그래서 온라인 기사가 많았던 것이죠.
+
+<img src="http://work.local/webmaster/wp-content/uploads/1/cfile2.uf.12021B5A4D084725281409.png" class="aligncenter" width="560" height="277" alt="지난 호 보기에서 온라인 기사를 표시했다" />
+
+이런 분석을 하려면, 온라인으로 올라간 기사가 무엇인지를 알아야 하는 것입니다. 그래야 어떤 쟁점을 온라인으로 다뤘는지 알 수 있으니까요.
+
+즉, 단순 통계가 아니라 내용이 있는 통계를 작성하기 위해 어떤 기사가 온라인인지 한 눈에 볼 필요가 있었다는 것이죠.
+
+## 덤으로 만든 기능
+
+독자들에게 꼭 필요할지 확신은 안 갑니다만, 그래도 유용할 거라고 생각해서 만든 기능이 있습니다.
+
+아래 그림에서 빨간 표시한 것을 보세요. 온라인만 보기, 오프라인만 보기, 다 보기 &#8211; 세 가지 버튼을 추가했습니다.
+
+<img src="http://work.local/webmaster/wp-content/uploads/1/cfile1.uf.192222474D084725296243.png" class="aligncenter" width="560" height="277" alt="온라인만 보기, 오프라인만 보기, 다 보기 버튼" />
+
+해당 호수에서 온라인 기사만 보거나 오프라인 기사만 보고 싶은 사람들을 위해 만든 기능입니다.
+
+방금 제가 좀 필요하기도 했고, &lsquo;15호 온라인이 뭐가 있었더라&rsquo; 생각하면서 15호 기사 목록으로 들어온 사람들이 온라인 기사를 한 눈에 볼 수 있게 하기 위해 만든 기능입니다.
+
+혹은 &lsquo;15호 지면에 실린 거만 보고 싶은데&rsquo; 하고 생각하는 사람도 있겠죠. ^^
+
+[프로그래밍 기법을 보고 싶은 사람들은 펼쳐 보세요.]
+
+[#M_ more.. | less.. |
+
+## jQuery
+
+방금 설명한 이 기능을 만드는 데는 jQuery가 정말 유용했습니다.
+
+코드 설명 들어가죠. 비전문가는 안 보셔도 됩니다.
+
+일단 아래 jQuery 코드에서 제가 가장 도움을 받은 것은 바로 :not()과 :has() 셀렉터입니다. 12번째 줄을 보세요.
+
+<pre class="brush: jscript;highlight: [12]; " title="code">$(function(){
+  //자바스크립트를 끄고 들어온 사람을 위해 css에서 세 버튼을 display: none으로 설정해 뒀습니다.
+  //따라서 자바스크립트를 켜고 들어온 사람을 위해서는 .show() 메서드로 세 버튼을 보이게 합니다. 
+ $('#view_only_online, #view_only_offline, #view_onoff').show();
+
+ //id=view_only_online인 Object를 클릭했을 때 function(){} 안에 있는 이벤트를 실행하라는 뜻입니다.
+ $('#view_only_online').click(function(){
+  //일단 id=view_onoff인 Object를 자동으로 클릭하게 합니다. 그러면 감춰져 있던 Object들이 모두 보이게 되죠.
+  $('#view_onoff').click();
+  //#oldies-list-table li 중 .online-only 인 Object를 갖지 않은(:not) 아이들만 .hide() 메서드로 감춰버립니다. 즉, 오프라인 기사들을 다 감춰 버리는 것이죠.
+  $('#oldies-list-table li:not(:has(".online-only"))').hide();
+  $('#oldies-list-table .table ul:not(:has(li:visible))').hide();
+ });
+
+ //위 로직과 비슷합니다.
+ $('#view_only_offline').click(function(){
+  $('#view_onoff').click();
+  $('#oldies-list-table li:has(".online-only")').hide();
+  $('#oldies-list-table .table ul:not(:has(li:visible))').hide();
+ });
+
+ $('#view_onoff').click(function(){
+ //#oldies-list-table li(기사 목록)를 모두 보이게 만듭니다.
+  $('#oldies-list-table li, #oldies-list-table .table ul').show();
+ });
+});</pre>
+
+아래는 html 코드고요.
+
+<pre class="brush: xhtml;" title="code">&lt;span id="view_only_online"&gt;온라인만 보기&lt;/span&gt;
+&lt;span id="view_only_offline"&gt;오프라인만 보기&lt;/span&gt;
+&lt;span id="view_onoff"&gt;다 보기&lt;/span&gt;</pre>
+
+아래는 css입니다. 제가 알려드리고 싶은 건 6번째 줄입니다. 저 css 코드를 사용하면 마우스 커서가 클릭하라는 모양으로 변한답니다.
+
+<pre class="brush: css;highlight: [7]; " title="code">#view_only_online, #view_only_offline, #view_onoff{
+  /*javascript 끈 사용자들에게는 쓸모없는 버튼이므로 초기 조건은 display: none으로 한다.*/
+  display: none;
+  font-size: 12px;
+  margin-left: 15px;
+  font-weight: normal;
+  cursor: pointer;
+}</pre>
+
+_M#]
+
+## 사용자들에게 편한 웹사이트
+
+사용자들이 효과적으로 사용할 수 있는 웹사이트를 만들기 위해 노력하고 있는데, 어떠세요.
+
+도움이 되셨나요? 그렇다면 아래쪽에 있는 후원 버튼을 클릭해 주세요. ^^
+
+여러분의 후원이 레프트21을 살찌운답니다. ㅋㅋ

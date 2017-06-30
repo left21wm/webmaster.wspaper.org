@@ -1,0 +1,41 @@
+---
+id: 221
+title: 트위터로 퍼가요 버튼이 생겼어요
+date: 2010-04-23T02:56:39+00:00
+author: 노동자 연대 웹마스터
+layout: post
+guid: http://work.local/webmaster/?p=221
+permalink: /archives/221
+tistory_id:
+  - 71
+categories:
+  - 사이트 이용안내
+tags:
+  - 노동자 연대
+  - 정보 유통
+  - 트위터
+  - 트위터로 퍼가기
+---
+일단 스크린샷부터 보시죠.
+
+<img src="http://work.local/webmaster/wp-content/uploads/1/cfile27.uf.140293564D08474C40A271.png" class="aligncenter" width="298" height="209" alt="" />
+
+기사 하단의 좌측이예요. &#8216;트위터로 퍼가요&#8217; 버튼이 생겼죠. ^^
+
+트위터가 정보 유통 통로 역할을 하게 되면서 레프트21도 트위터에 진출한지 꽤 됐어요. 얼마 전 <a target="_blank" href="http://wspaper.org/article/8005">금호타이어 농성장에서 사측이 노동자들을 폭행한 것을 알린 속보</a>는 트위터를 통해 퍼져서 보통 기사들보다 20배는 많은 사람들이 봤답니다.(<a target="_blank" href="http://www.ubervu.com/conversations/www.left21.com/article/8005?show=all">여기</a> 가면 얼마나 많은 사람들이 금호타이어 기사를 추천했는지 알 수 있어요.)
+
+그래서 <레프트21> 웹마스터인 저는&#8230; <레프트21> 트위터팀**(!)**의 논의에 따라 기사 하단에 트위터 버튼을 달기로 결정하고, 오늘 아침 <span style="font-weight: bold;">전격(!)</span> 단행했습니다.
+
+위 버튼을 누르면 새 창이 뜨고 트위터 사이트로 이동을 하게 됩니다. 만약 로그인돼있지 않다면 아래와 같은 화면이 나오지요.
+
+<img src="http://work.local/webmaster/wp-content/uploads/1/cfile1.uf.1828B64E4D08474C04C086.png" class="aligncenter" width="379" height="215" alt="" />
+
+그리고 로그인을 하면 아래처럼&#8230;
+
+짜잔~ 기사 제목과 URL이 동시에 트위터 말하기 창에 달라붙게 됩니다.
+
+<img src="http://work.local/webmaster/wp-content/uploads/1/cfile24.uf.185E1D4B4D08474C13FC58.png" class="aligncenter" width="397" height="202" alt="" />
+
+그럼, 앞으로도 레프트21과 <a target="_blank" href="http://twitter.com/left21twit">레프트21 트위터</a>를 많이 사랑해 주시고요~! ^^
+
+URL 줄이는 서비스는 앞으로 연구해서 달도록 하겠습니다. 하는 방법을 보다가 시간이 없어서 포기 OTL;;

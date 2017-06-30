@@ -1,0 +1,7 @@
+title: 노동자 연대 웹마스터
+description: 
+show_downloads: false
+google_analytics: 
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap

@@ -1,0 +1,40 @@
+---
+id: 407
+title: 카톡 등 문자로 기사를 쉽게 공유하도록 돕는 기능을 만들었습니다
+date: 2013-11-18T19:02:36+00:00
+author: 노동자 연대 웹마스터
+layout: post
+guid: http://work.local/webmaster/?p=407
+permalink: /archives/407
+categories:
+  - 사이트 이용안내
+---
+얼마 전 <레프트21> 기사 제목과 주소를 손 쉽게 공유할 수 있는 기능을 새로 만들었습니다. 오늘은 <레프트21> 독자들에게 이 기능을 소개하려고 합니다.
+
+### 투쟁하는 노동자들의 신문, <레프트21>
+
+요즘 <레프트21> 기사들 중 현대차, 철도, 전교조, 티브로드, 삼성일반노조 등 노동자 투쟁에 관련한 기사들이 아주 인기가 좋습니다. 통계를 분석해 보니 스마트폰 등 모바일 기기로 기사를 읽은 비율과, 유입 경로가 기록되지 않은 비율이 아주 높았는데요. 저희 <레프트21> 웹 개발팀은 이런 현상을 **문자, 카카오톡 등의 스마트폰 메시지를 통해 기사를 돌려 읽었을 가능성이 높다**는 것으로 추측하고 있습니다.
+
+일례로, 지난 <레프트21> 110호에 실린 [&#8216;경제 위기 고통전가 공세에 파열구를 낼 현대차 임금 인상 투쟁은 정당하다&#8217;](http://wspaper.org/article/13462) 기사의 경우에도 위의 현상이 있었던데다, 지역별 통계를 보니 서울, 부산과 함께 울산에서의 유입이 다른 지역에 비해 압도적으로 많았습니다. 실제로 얼마 전, 현대차노조 정규직 조합원이자 <레프트21> 애독자인 한 분이 전해주시길, 당시 파업 중 다른 현대차 조합원으로부터 &#8220;좋은 기사 나왔으니 한 번 읽어보라&#8221;라며 이 기사 링크를 메시지로 받은 적도 있었다고 합니다.
+
+아주 기뻤습니다! 저희 <레프트21>은 &#8220;가식적 중립을 거부하고 주류 언론이 대변하지 않는 노동자와 차별받는 사람 들의 입장에서 그들의 목소리를 대변&#8221;하는 선명 진보언론입니다([<레프트21> 소개 바로가기](http://wspaper.org/article/10155)). 이런 저희 기사가 투쟁하는 노동자들과 그 지지자들 사이에서 공유되고 있다는 사실만큼 기분 좋은 일이 또 있을까 싶습니다. 그래서 이런 기사들을 문자 메시지나 카톡으로도 쉽게 공유할 수 있도록 하는 기능을 만들게 된 것입니다.
+
+처음에는 카카오링크를 사용해서 카카오톡으로 공유할 수 있도록 할까 했는데요. 이 방식은 페이스북이나 트위터에 공유하기와 다르게 갑자기 낯선 화면이 등장하면서 사용자를 당황하게 할 수 있다는 점, 카카오톡 외의 다른 메시지 앱들에는 활용할 수 없는 점 등의 이유로 별도의 기능을 만들게 되었습니다.
+
+앞으로도 &#8220;위기의 자본주의, 운동의 목소리를 담고 좌파적 대안을 말하는 신문&#8221; <레프트21>이 더 많은 사람들에게 읽히고, 또 영감을 줄 수 있도록 하는데 이 기능이 도움이 되길 바랍니다.
+
+### 사용법
+
+<a style="display: block; text-align: center;" href="http://work.local/webmaster/wp-content/uploads/2013/11/article-sharing-01.png"><img class="aligncenter size-full wp-image-413" alt="article-sharing-01" src="http://work.local/webmaster/wp-content/uploads/2013/11/article-sharing-01.png" width="225" height="400" srcset="http://work.local/webmaster/wp-content/uploads/2013/11/article-sharing-01.png 225w, http://work.local/webmaster/wp-content/uploads/2013/11/article-sharing-01-168x300.png 168w" sizes="(max-width: 225px) 100vw, 225px" /></a>
+
+기사 맨 아래를 보시면 카카오톡 아이콘이 있습니다(사진 속의 빨간 네모). 이걸 클릭/터치하시면, 해당 기사의 제목과 주소를 복사할 수 있는 팝업이 나옵니다.
+
+참, 카카오톡 아이콘을 굳이 쓴 이유는 카카오톡 아이콘이 단순명료하게 이 기능을 표현해 주기 때문이었습니다. 카카오톡에서만 쓸 수 있는 기능은 아닙니다.
+
+<a style="display: block; text-align: center;" href="http://work.local/webmaster/wp-content/uploads/2013/11/article-sharing-02.png"><img class="aligncenter size-full wp-image-414" alt="article-sharing-02" src="http://work.local/webmaster/wp-content/uploads/2013/11/article-sharing-02.png" width="480" height="400" srcset="http://work.local/webmaster/wp-content/uploads/2013/11/article-sharing-02.png 480w, http://work.local/webmaster/wp-content/uploads/2013/11/article-sharing-02-300x250.png 300w" sizes="(max-width: 480px) 100vw, 480px" /></a>
+  
+아이폰의 경우 바로 복사하기 버튼이 나옵니다(왼쪽 사진). 안드로이드폰의 경우, 오른쪽 위의 종이 두 장 겹쳐놓은듯한 아이콘(사진 속의 빨간 네모)을 터치하면 복사할 수 있습니다(오른쪽 사진).
+
+<a style="display: block; text-align: center;" href="http://work.local/webmaster/wp-content/uploads/2013/11/article-sharing-03.png"><img class="aligncenter size-full wp-image-415" alt="article-sharing-03" src="http://work.local/webmaster/wp-content/uploads/2013/11/article-sharing-03.png" width="720" height="400" srcset="http://work.local/webmaster/wp-content/uploads/2013/11/article-sharing-03.png 720w, http://work.local/webmaster/wp-content/uploads/2013/11/article-sharing-03-300x166.png 300w" sizes="(max-width: 720px) 100vw, 720px" /></a>
+  
+이제 위의 사진처럼 카톡이나 라인, 문자 메시지 창에서 살짝 누르면 붙여 넣기가 나옵니다. 그럼 그걸 눌러서 붙여 넣고 보내시면 됩니다. 이 부분은 아이폰이나 안드로이드폰에 따른 차이가 없습니다.

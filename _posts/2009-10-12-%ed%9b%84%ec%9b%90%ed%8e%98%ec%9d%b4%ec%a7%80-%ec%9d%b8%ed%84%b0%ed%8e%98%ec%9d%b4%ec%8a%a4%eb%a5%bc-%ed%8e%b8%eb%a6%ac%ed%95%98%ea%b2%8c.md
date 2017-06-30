@@ -1,0 +1,118 @@
+---
+id: 131
+title: 후원페이지, 인터페이스를 편리하게
+date: 2009-10-12T07:12:34+00:00
+author: 노동자 연대 웹마스터
+layout: post
+guid: http://work.local/webmaster/?p=131
+permalink: /archives/131
+tistory_id:
+  - 42
+categories:
+  - 개발 이야기
+---
+<레프트21>처럼 전혀 기업광고도, 정부지원도 받지 않는 신문은 <a target="_blank" href="http://wspaper.org/B_support.php?from=webmasterBlog">독자 여러분의 후원</a>이 정말 중요합니다. 그런데, 얼마 전 <a target="_blank" href="http://wspaper.org/B_support.php?from=webmasterBlog">후원페이지</a>를 보다가, 좀 불편해 보이는 점을 발견했습니다.
+
+<div class="imageblock center" style="text-align: center; clear: both;">
+  <img src="/attach/3/cfile23.uf.1262AD4A4D0847211D8A3B.png" alt="사용자 삽입 이미지" height="415" width="500" />
+</div>
+
+
+
+위 그림에서 둘 중 하나를 선택하는 것까지는 좋습니다. 다음 두 가지가 불편해보였습니다.
+
+## 이름을 클릭해도 선택되도록
+
+아래를 보시면 이해가 쉬울 것입니다.
+
+***동그라미를 클릭해야만 하는 경우**
+
+<input name="a" type="radio" value="0" />후원하기 <input name="b" type="radio" value="0" />일시 후원하기
+
+***글자를 클릭해도 동그라미가 선택되는 경우**
+
+<label style="cursor:pointer;"><input name="a" type="radio" value="0" />후원하기</label> <label style="cursor:pointer;"><input name="b" type="radio" value="0" />일시 후원하기</label>
+
+위쪽 보다는 아래쪽이 사용자들 입장에서 더욱 편리하겠죠?
+
+<s>원리는 간단합니다. 소스를 보세요.</s>
+
+<pre title="code" class="brush: xhtml;"><!--이 코드는 마크업에 맞지 않는 코드이니 참고하지 마시고 아래쪽 코드를 참고하세요.-->
+&lt;p&gt;&lt;strong&gt;*동그라미를 클릭해야만 하는 경우&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input name="a" type="radio" value="0" /&gt;후원하기 &lt;input name="a" type="radio" value="0" /&gt;일시 후원하기&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;*글자를 클릭해도 동그라미가 선택되는 경우&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;label style="cursor:pointer;"&gt;&lt;input name="b" type="radio" value="0" /&gt;후원하기&lt;/label&gt; &lt;label style="cursor:pointer;"&gt;&lt;input name="b" type="radio" value="0" /&gt;일시 후원하기&lt;/label&gt;&lt;/p&gt;</pre>
+
+<s>4번째 줄을 보시면, input과 문자 부분이 동시에 label 태그로 둘러싸여 있는 것을 알 수 있습니다. 간단하죠?</s>
+
+위 코드는 올바르지 않은 마크업입니다. 개발자 분들은 참고하지 마세요.
+
+올바른 마크업은 아래와 같습니다.
+
+<pre class="hljs"><code class="">&lt;input name="a" type="radio" value="support_once" id="id_name" /&gt;&lt;label for="id_name"&gt;일시 후원하기&lt;/label&gt;</code></pre>
+
+위 코드와 같이 하면 텍스트를 클릭했을 때 라디오 버튼이 선택됩니다.
+
+## 클릭했는데 변화가 없어요!!!
+
+자, 기존의 환경으로 돌아가서, 동그라미를 잘 클릭했다고 생각해봅시다. 그런데, 아무 변화가 없는 경우가 있었습니다. 왜일까요? 아래 그림을 보세요.
+
+<div class="imageblock center" style="text-align: center; clear: both;">
+  <img src="/attach/3/cfile23.uf.1262AD4A4D0847211D8A3B.png" alt="사용자 삽입 이미지" height="415" width="500" />
+</div>
+
+
+
+자자&#8230; 선택을 하면 아랫부분에 후원 정보를 입력하도록 설계를 해놨습니다. 문제는&#8230; 사람들이 아랫부분까지 스크롤을 하지 않은 채로 선택하는 경우였습니다. 그러면, 클릭해도 아무 변화가 없는 셈이 되는 것이죠!
+
+그래서 가끔 이런 말을 듣곤 했습니다. &#8220;클릭해도 가만히 있는데?&#8221; 그럼 제가 대답했죠. &#8220;아래로 내리세요.&#8221;
+
+물론 대부분의 사람들이 금세 아래쪽으로 스크롤을 내려서 후원을 하셨을 겁니다. 하지만&#8230; 이런 식의 혼란을 주는 것을 웹마스터로서 용납해선 안 되겠죠! 그래서 오늘 과감하게 고쳤습니다.
+
+클릭을 하면 아래쪽에서 펼쳐지는 게 아니라 입력양식이 위쪽에서 펼쳐지게 고친 것입니다.
+
+그런데, 번쩍! 하고 입력양식이 나타나면 원래 버튼은 어디갔는지 궁금해할 분들도 있겠죠. 그래서 위에서 펼쳐지는 애니메이션 효과를 적용했습니다.
+
+아래 그림은 펼쳐지는 중간에 캡쳐한 것입니다.
+
+<div class="imageblock center" style="text-align: center; clear: both;">
+  <img src="/attach/3/cfile1.uf.17652A484D0847210D4C74.png" alt="사용자 삽입 이미지" height="426" width="500" />
+</div>
+
+
+
+## 인터페이스와 화려함
+
+애니메이션 효과 이야기가 나와서 말인데요, 최근에 jQuery라는 것을 공부했습니다. 이걸 사용하면 웹에서 효과적으로 애니메이션을 사용할 수 있어요.(물론 다른 것들도 있습니다.)
+
+하지만, 애니메이션을 마구 남발할 수는 없겠죠. 레프트21 사이트에 오는 사람들은 별거 아닌 애니메이션을 보러 오는 게 아니라, 기사를 읽기 위해 오는 것이기 때문입니다.
+
+그냥 예뻐보이니까 애니메이션을 사용하는 것은 사이트의 성능을 떨어뜨리는 데 일조하는 것이고, 그건 사용자들을 짜증나게 하기 딱 좋죠. 저에게는, 플래시로 떡칠해 놓은 예전 이동통신사들 사이트에 들어가는 것은 정말 하고싶지 않은 일이었어요.(예전 인터넷 뱅킹 사이트들도 그랬죠.)
+
+레프트21 사이트는 사용자들이 원하는 기사를 가장 빨리, 기다림 없이, 찾아서 읽을 수 있도록 하는 데 가장 무게를 두고 기획하고 있습니다.
+
+위에서 사용한 애니메이션 효과는 화면의 변화과정을 사용자들이 인지할 수 있도록 하기 위해 사용한 것이죠.
+
+그럼&#8230; 앞으로도 웹마스터 블로그 잘 읽어주세요~! ^^ 한 번 <a target="_blank" href="http://wspaper.org/B_support.php?from=webmasterBlog">바뀐 후원페이지를 구경</a>해 보시는 것도 좋겠지요.
+
+## 소스
+
+jQuery를 연결한, 아래 소스를 사용했습니다. hide()가 아니라 css(&#8216;display&#8217;,&#8217;none&#8217;)를 사용한 이유는, hide()로 하니 익스6에서 원가 문제가 생기는 듯해서였습니다. 물론 다시 하면 그런 오류가 없을지도 모릅니다.
+
+<pre title="code" class="brush: jscript;">&lt;script type="text/javascript" src="jquery.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+ $(function(){
+   $('#btn1').bind('click',function(event){
+      $('#content2').css('display','none');
+     $('#content1').show('slow',function(){
+        $('#content1 #OrdNm').focus();
+      });
+   });
+   $('#btn2').bind('click',function(event){
+      $('#content1').css('display','none');
+     $('#content2').show('slow',function(){
+        $('#content2 #OrdNm').focus();
+      });
+   });
+ });
+&lt;/script&gt;</pre>

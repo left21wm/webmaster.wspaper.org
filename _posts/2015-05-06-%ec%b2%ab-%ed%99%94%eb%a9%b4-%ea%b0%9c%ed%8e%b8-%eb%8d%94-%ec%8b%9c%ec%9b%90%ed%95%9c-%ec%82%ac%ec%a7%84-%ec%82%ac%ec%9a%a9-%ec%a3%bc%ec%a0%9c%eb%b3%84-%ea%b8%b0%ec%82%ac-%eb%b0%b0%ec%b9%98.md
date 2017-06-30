@@ -1,0 +1,143 @@
+---
+id: 453
+title: '첫 화면 개편 &#8211; 더 시원한 사진 사용, 주제별 기사 배치'
+date: 2015-05-06T19:31:11+00:00
+author: 노동자 연대 웹마스터
+layout: post
+guid: http://work.local/webmaster/?p=453
+permalink: /archives/453
+categories:
+  - 개발 이야기
+---
+얼마 전 눈에 띄게 달라진 사이트 첫 화면에 놀라신 분들이 많을 것입니다.
+
+이번 포스트에선 첫 화면을 개편한 취지와 무엇이 바뀌었는지를 자세히 소개하고자 합니다.
+
+## 개편 취지 {#개편-취지}
+
+모든 신문은 자신이 보기에 무엇이 더 중요하고 덜 중요하지를 편집으로 드러내려 합니다.
+
+온라인에서도 마찬가지 입니다. 특히 종이 신문의 1면에 해당하는 사이트 첫 화면은 편집에 대한 고민이 가장 많이 들어가는 페이지입니다.
+
+<div id="attachment_454" style="width: 610px" class="wp-caption aligncenter">
+  <a href="http://work.local/webmaster/wp-content/uploads/2015/05/old-index.jpg"><img class="size-full wp-image-454" src="http://work.local/webmaster/wp-content/uploads/2015/05/old-index.jpg" alt="옛 첫화면(2014년 3월 28일)" width="600" height="405" srcset="http://work.local/webmaster/wp-content/uploads/2015/05/old-index.jpg 600w, http://work.local/webmaster/wp-content/uploads/2015/05/old-index-300x202.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a>
+  
+  <p class="wp-caption-text">
+    옛 첫화면(2014년 3월 28일)
+  </p>
+</div>
+
+〈노동자 연대〉 사이트의 기존 첫 화면은 3단 구성이었고 편집은 주로 가운데 단의 기사 배치 순서와 제목 크기로 표현됐습니다. 나머지 양쪽 단은 대체로 기사의 종류(독자편지, 최신 온라인 기사, 리뷰, 칼럼, 기획연재 등)를 기준으로 구성됐습니다.
+
+### 편집의 한계 {#편집의-한계}
+
+그러나 배치 순서와 제목 크기 만으로는 편집 의도를 충분히 드러내지 못하는 상황이 종종 있었습니다. 예컨대 몇 호에 걸쳐 특정 쟁점을 강조하면서도, 현재 호의 표제 기사도 함께 보여줘야 할 때가 있습니다. 또는 쟁점별로 강조의 차이가 미묘할 때도 있습니다.
+
+물론 그동안 〈노동자 연대〉 사이트는 기존 틀을 크게 바꾸지 않고도 이런 문제에 잘 대응해왔습니다. 예컨대 100호 발행 기념 주간에는 오른쪽 단에 별도 영역을 만들어서 거기에 콘텐츠를 배치했습니다. 2011년에 &#8220;아랍의 봄&#8221;이 한창일 때에는 첫 화면 상단 전체를 할애해서 배치했습니다.
+
+[<img class="aligncenter size-full wp-image-467" src="http://work.local/webmaster/wp-content/uploads/2015/05/100th-index1.jpg" alt="100th-index" width="600" height="350" srcset="http://work.local/webmaster/wp-content/uploads/2015/05/100th-index1.jpg 600w, http://work.local/webmaster/wp-content/uploads/2015/05/100th-index1-300x175.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" />](http://work.local/webmaster/wp-content/uploads/2015/05/100th-index1.jpg)
+
+그러나 올해 3, 4월에는 기존 틀로는 편집 방향을 충분히 담아낼 수 없는 정세가 펼쳐졌습니다. 〈노동자 연대〉가 민주노총의 4·24 총파업을 강조하고 있는 상황에서, 세월호 참사 항의 운동도 참사 1주기를 맞이하며 정세의 초점으로 떠올랐습니다. 그래서 세월호 운동도 총파업에 버금가게 강조하는 영역을 첫 화면에 추가해야 했습니다.
+
+그런데 이미 왼쪽 단에는 총파업 기사를 배치하는 영역이 있었고, 세월호 영역을 가운데 배치하자니 총파업에 대한 강조가 죽고, 총파업 영역을 가운데 배치하자니 영역이 너무 위아래로 길어서 가운데 단에 나열될 다른 기사들이 너무 뒤로 밀리고 &#8230;
+
+<div id="attachment_456" style="width: 610px" class="wp-caption aligncenter">
+  <a href="http://work.local/webmaster/wp-content/uploads/2015/05/last-index.png"><img class="size-full wp-image-456" src="http://work.local/webmaster/wp-content/uploads/2015/05/last-index.png" alt="2015년 4월 20일 당시 첫 화면" width="600" height="445" srcset="http://work.local/webmaster/wp-content/uploads/2015/05/last-index.png 600w, http://work.local/webmaster/wp-content/uploads/2015/05/last-index-300x222.png 300w" sizes="(max-width: 600px) 100vw, 600px" /></a>
+  
+  <p class="wp-caption-text">
+    2015년 4월 20일 당시 첫 화면
+  </p>
+</div>
+
+결국 기존 화면 배치를 크게 헤치는 식으로 편집을 할 수 밖에 없었습니다. 세월호와 총파업 관련 기사 이외의 기사들은 가운데 단이 아니라 왼쪽 단으로 나열되게 했고, 왼쪽 단에 있던 섹션들은 없애거나 오른쪽으로 옮겼습니다. 점차 예외적 조처로 첫 화면이 점철됐고 유지 보수도 더 힘들어졌습니다.
+
+그래서 더 유연하고 입체적인 편집이 가능하게 첫 화면을 재구성하기로 결정했습니다.
+
+### 기사들 사이의 연관성 표현 {#기사들-사이의-연관성-표현}
+
+기사들 사이의 연관성이 더 뚜렷하게 드러났으면 좋겠다는 바람도 있었습니다. 물론 기존 첫 화면에서도 기사 아래에 관련 기사를 나열해서 연관성을 표현하기는 했습니다.
+
+<div id="attachment_457" style="width: 345px" class="wp-caption aligncenter">
+  <a href="http://work.local/webmaster/wp-content/uploads/2015/05/related-articles.png"><img class="wp-image-457 size-full" src="http://work.local/webmaster/wp-content/uploads/2015/05/related-articles.png" alt="related-articles" width="335" height="418" srcset="http://work.local/webmaster/wp-content/uploads/2015/05/related-articles.png 335w, http://work.local/webmaster/wp-content/uploads/2015/05/related-articles-240x300.png 240w" sizes="(max-width: 335px) 100vw, 335px" /></a>
+  
+  <p class="wp-caption-text">
+    기존 첫 화면에서 기사의 연관성을 표현한 방식
+  </p>
+</div>
+
+그러나 그 기사를 묶는 주제를 명시적으로 드러낸 것은 아니었습니다. 연관성은 있지만 비중이 커서 다른 기사에 딸려 있는 것으로 표현하는 것이 적절하지 않은 경우도 있었습니다.
+
+### 디자인 {#디자인}
+
+기존 첫 화면의 디자인은 2009년에 나온 것입니다. 당시에는 깔끔하고 멋진 디자인이었지만 지금은 낡아보입니다.
+
+특히 점점 많은 언론사 사이트들이 사진과 이미지를 시원시원하게 활용하는 것에 비해 〈노동자 연대〉 사이트는 다소 글로만 채워진 느낌을 주었습니다. 작은 글자와 좁은 글자 간격이 이런 느낌을 부채질하기도 했습니다.
+
+<div id="attachment_469" style="width: 410px" class="wp-caption aligncenter">
+  <a href="http://work.local/webmaster/wp-content/uploads/2015/05/index-full-of-text2.jpg"><img class="size-full wp-image-469" src="http://work.local/webmaster/wp-content/uploads/2015/05/index-full-of-text2.jpg" alt="글자로 가득한 첫 화면(2014년 12월 9일)" width="400" height="477" srcset="http://work.local/webmaster/wp-content/uploads/2015/05/index-full-of-text2.jpg 400w, http://work.local/webmaster/wp-content/uploads/2015/05/index-full-of-text2-251x300.jpg 251w" sizes="(max-width: 400px) 100vw, 400px" /></a>
+  
+  <p class="wp-caption-text">
+    글자로 가득한 첫 화면(2014년 12월 9일)
+  </p>
+</div>
+
+## 새로운 첫 화면 구성 {#새로운-첫-화면-구성}
+
+새 첫 화면에서는 리뷰, 독자편지, 최신 온라인 기사와 같은 기사 종류별 구분을 과감하게 생략하거나 배치를 조정했습니다. 대신 주제별로 구역을 나눠서 거기에 기사를 배치했습니다.
+
+&nbsp;
+
+<div id="attachment_459" style="width: 1034px" class="wp-caption aligncenter">
+  <a href="http://work.local/webmaster/wp-content/uploads/2015/05/index-sections.jpg"><img class="size-large wp-image-459" src="http://work.local/webmaster/wp-content/uploads/2015/05/index-sections-1024x614.jpg" alt="주제별로 구분된 첫 화면" width="1024" height="614" srcset="http://work.local/webmaster/wp-content/uploads/2015/05/index-sections-1024x614.jpg 1024w, http://work.local/webmaster/wp-content/uploads/2015/05/index-sections-300x180.jpg 300w, http://work.local/webmaster/wp-content/uploads/2015/05/index-sections.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+  
+  <p class="wp-caption-text">
+    주제별로 구분된 첫 화면
+  </p>
+</div>
+
+그래서 〈노동자 연대〉 신문이 현재 어떤 주제를 다루고 있는지, 그 주제를 다루는 기사는 무엇이 있는지가 더 정돈되어 보입니다. (모바일 화면에서는 이점이 더 두드러집니다.)
+
+가장 위에 있는 구역은 종이 신문의 1면 역할을 합니다. 이번 호에서 무엇을 강조하는지를 드러내고 어떤 기사가 있는지 길잡이 역할을 합니다. 기사 아래에 있는 &#8220;▶ 관련 기사 보기&#8221;를 누르면 관련 기사가 묶여 있는 구역으로 바로 이동합니다.
+
+<div id="attachment_460" style="width: 754px" class="wp-caption aligncenter">
+  <a href="http://work.local/webmaster/wp-content/uploads/2015/05/paper-headline.jpg"><img class="wp-image-460 size-full" src="http://work.local/webmaster/wp-content/uploads/2015/05/paper-headline.jpg" alt="paper-headline" width="744" height="384" srcset="http://work.local/webmaster/wp-content/uploads/2015/05/paper-headline.jpg 744w, http://work.local/webmaster/wp-content/uploads/2015/05/paper-headline-300x154.jpg 300w" sizes="(max-width: 744px) 100vw, 744px" /></a>
+  
+  <p class="wp-caption-text">
+    종이 신문의 1면. 주요 기사를 어디에서 볼 수 있는지 적혀있습니다
+  </p>
+</div>
+
+<div id="attachment_461" style="width: 710px" class="wp-caption aligncenter">
+  <a href="http://work.local/webmaster/wp-content/uploads/2015/05/headline-section.gif"><img class="size-full wp-image-461" src="http://work.local/webmaster/wp-content/uploads/2015/05/headline-section.gif" alt="첫 화면 헤드라인. &quot;▶ 관련 기사 보기&quot;를 누르면 관련 기사가 있는 곳으로 이동합니다" width="700" height="426" /></a>
+  
+  <p class="wp-caption-text">
+    첫 화면 헤드라인. &#8220;▶ 관련 기사 보기&#8221;를 누르면 관련 기사가 있는 곳으로 이동합니다
+  </p>
+</div>
+
+사진 활용도도 훨씬 높아져서 더 생동감 있고 시원한 느낌을 줍니다.
+
+<div id="attachment_462" style="width: 733px" class="wp-caption aligncenter">
+  <a href="http://work.local/webmaster/wp-content/uploads/2015/05/current-index-desktop.jpg"><img class="size-large wp-image-462" src="http://work.local/webmaster/wp-content/uploads/2015/05/current-index-desktop-723x1024.jpg" alt="현재 첫 화면" width="723" height="1024" srcset="http://work.local/webmaster/wp-content/uploads/2015/05/current-index-desktop-723x1024.jpg 723w, http://work.local/webmaster/wp-content/uploads/2015/05/current-index-desktop-211x300.jpg 211w, http://work.local/webmaster/wp-content/uploads/2015/05/current-index-desktop.jpg 800w" sizes="(max-width: 723px) 100vw, 723px" /></a>
+  
+  <p class="wp-caption-text">
+    현재 첫 화면
+  </p>
+</div>
+
+### 유연한 편집 {#유연한-편집}
+
+각 구역의 편집은 매우 유연하게 할 수 있게 했습니다. 덕분에 민주노총 총파업과 세월호 쟁점을 거의 비슷하게 강조해야 되는 예외적인 상황에도 대응할 수 있었습니다. 위 사진을 보면 가장 위에 있는 구역에서 총파업 관련 기사와 세월호 관련 기사를 위에 크게 배치하는 식으로 편집 의도를 표현한 것을 보실 수 있을 것입니다.
+
+각 구역에 배치되는 기사의 크기와 위치는 격자에 맞춰 편집자가 자유자재로 정할 수 있습니다. 사진의 위치와 크기, 제목 크기 등도 조정할 수 있습니다.
+
+
+
+자유도가 높아진만큼 편집에 대한 고민도 더 많아졌지만 역동적인 한국 사회에서 어떤 정세가 닥쳐오더라도 잘 대처하리라 기대해봅니다.
+
+## 남은 이야기들 {#남은-이야기들}
+
+  * 첫 화면은 일단 개편했지만 두세달에 걸쳐서 사이트 전반을 개편하는 작업을 할 것입니다. 원래는 3월부터 전면 개편 작업을 추진했는데, 첫 화면 개편이 시급해져서 먼저 하게된 것입니다.
+  * 관련성 있는 기사들을 더 쉽고 입체적으로 볼 수 있도록 기사 분류 체계등을 재정비하고 나머지 페이지들의 디자인도 현재 첫 화면에 맞춰서 개선할 것입니다.
+  * 검색 엔진도 더 다양한 검색 수요에 부응할 수 있도록 강화할 것입니다. 현재 사용하고 있는 구글의 검색 엔진은 정보의 바다에서 관련성 있는 페이지를 골라내는 데에는 탁월하지만, 특정 주제나 필자의 기사를 빠짐 없이 훑어보는 데에는 아쉬움이 있습니다. 필요에 맞게 고쳐쓸 여지도 많지 않습니다. 그래서 서버에서 자체적으로 검색 엔진을 구동시킬 생각입니다.
+  * 기사 페이지는 가장 이용이 많은만큼 첫 화면 개편과 발맞춰서 여러가지가 개선됐는데, 이에 대해선 다음 포스트에서 다루도록 하겠습니다.

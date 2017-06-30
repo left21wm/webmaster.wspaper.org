@@ -1,0 +1,26 @@
+---
+id: 127
+title: 레프트21 온라인 기사용 RSS 추가
+date: 2009-09-29T05:01:07+00:00
+author: 노동자 연대 웹마스터
+layout: post
+guid: http://work.local/webmaster/?p=127
+permalink: /archives/127
+tistory_id:
+  - 40
+categories:
+  - 사이트 이용안내
+tags:
+  - RSS
+  - 노동자 연대
+  - 온라인기사RSS
+---
+RSS를 다양하게 만드는 것은 장호종 기자님(!)이 여러 번 이야기를 해 준 것입니다. 
+
+그래서 이번에 간단하게 구현할 수 있는 것을 시도해 봤습니다. <a href="http://feeds.feedburner.com/left21/rssOnline" target="_blank">온라인 기사만 받을 수 있는 RSS</a>를 만든 것입니다.
+
+<img src="http://work.local/webmaster/wp-content/uploads/1/cfile10.uf.180294544D0847203A3CA2.jpg" class="aligncenter" width="352" height="457" alt="사용자 삽입 이미지" />
+
+주소는 위 그림에 나와있다시피 http://feeds.feedburner.com/left21/rssOnline 입니다.
+
+[덧] RSS가 뭔지 모르시는 분은 이 블로그의 <a target="_blank" href="http://work.local/webmaster/webmaster/7" class="broken_link">‘RSS란 무엇이며 어떻게 사용하는 것일까?’</a>를 읽어보시면 도움이 될 것입니다.

@@ -1,0 +1,10 @@
+---
+id: 401
+title: SMACSS ? 유연하고 모듈화된 CSS 방법론 학습 ? 4. 기초 스타일 쓰지 않기, 아이콘 모듈, 복잡한 상속, 코드 조판(Code Formatting)
+date: 2013-04-30T18:35:52+00:00
+author: 노동자 연대 웹마스터
+layout: post
+guid: 'http://work.local/webmaster/?post_type=devsharing&#038;p=401'
+permalink: /archives/401
+---
+[git:markdown@https://github.com/left21wm/dev-sharing/blob/master/css/smacss/2013-03-14-pt4.md]

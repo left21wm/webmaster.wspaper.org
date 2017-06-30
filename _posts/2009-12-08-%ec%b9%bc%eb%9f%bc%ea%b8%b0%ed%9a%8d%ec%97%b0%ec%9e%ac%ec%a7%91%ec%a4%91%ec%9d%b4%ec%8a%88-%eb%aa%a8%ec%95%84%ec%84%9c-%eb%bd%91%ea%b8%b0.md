@@ -1,0 +1,73 @@
+---
+id: 160
+title: 칼럼,기획연재,집중이슈 모아서 뽑기
+date: 2009-12-08T07:39:05+00:00
+author: 노동자 연대 웹마스터
+layout: post
+guid: http://work.local/webmaster/?p=160
+permalink: /archives/160
+tistory_id:
+  - 53
+categories:
+  - 사이트 이용안내
+tags:
+  - 노동자 연대
+  - 인쇄
+---
+온라인 기사 모아 뽑기 기능을 보고 친구녀석이 이런 아이디어를 낸 적이 있습니다.
+
+> 집중이슈랑 기획연재, 칼럼도 모아뽑기가 되면 좋겠는데?
+
+일리가 있는 말이었습니다. 
+
+제가 예전에 들은 바로는, 집중이슈를 전부 긁어서 출력하는 분도 있었거든요.
+
+기획연재를 모두 출력해서 읽는 분도 봤습니다.
+
+그래서 며칠 전에 만들었습니다. 눈치가 빠른 분들은 이미 사용하셨을 텐데요.
+
+집중이슈나 기획연재, 칼럼란에 들어가면 &#8216;모아서 인쇄&#8217;라는 버튼이 생긴 것을 확인할 수 있을 겁니다.
+
+<div style="width: 590px" class="wp-caption aligncenter">
+  <img src="http://work.local/webmaster/wp-content/uploads/1/cfile3.uf.205F124B4D0847330D4B30.png" width="580" height="147" alt="" />
+  
+  <p class="wp-caption-text">
+    집중이슈의 경우
+  </p>
+</div>
+
+<div style="width: 590px" class="wp-caption aligncenter">
+  <img src="http://work.local/webmaster/wp-content/uploads/1/cfile6.uf.1405EA584D0847333A68BC.png" width="580" height="93" alt="" />
+  
+  <p class="wp-caption-text">
+    칼럼의 경우
+  </p>
+</div>
+
+<div style="width: 590px" class="wp-caption aligncenter">
+  <img src="http://work.local/webmaster/wp-content/uploads/1/cfile25.uf.1660B4484D08473326604B.png" width="580" height="84" alt="" />
+  
+  <p class="wp-caption-text">
+    기획연재의 경우
+  </p>
+</div>
+
+간단하죠?
+
+모아서 인쇄를 클릭해 들어가면 온라인 기사 모아 뽑기와 같은 화면이 나옵니다.
+
+<img src="http://work.local/webmaster/wp-content/uploads/1/cfile9.uf.162337474D0847332D9904.jpg" class="aligncenter" width="580" height="334" alt="" />
+
+위에 보시면 알겠지만, &#8216;인쇄 세부 조정을 눌러 인쇄할 기사를 선택하세요.&#8217;라는 안내가 있죠?
+
+인쇄 세부조정 버튼을 한 번 눌러 보세요. 그러면 인쇄할 기사 목록이 뜹니다.
+
+<img src="http://work.local/webmaster/wp-content/uploads/1/cfile23.uf.1362D7484D0847331A66D0.jpg" class="aligncenter" width="580" height="371" alt="" />
+
+인쇄할 것과 하지 않은 것을 여기서 골라냅니다.
+
+그리고 인쇄 버튼을 누르면 실제 인쇄할 화면으로 이동하게 됩니다.
+
+한 번 해 보시는게 가장 도움이 될 테니, 연습할 수 있는 페이지로 링크 걸겠습니다.
+
+<a href="http://wspaper.org/6_issue.php?issue_no=57" target="_blank">집중이슈 &#8211; 한상률 게이트</a>

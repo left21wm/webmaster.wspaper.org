@@ -1,0 +1,74 @@
+---
+id: 204
+title: 블로그에, 자동으로 갱신되는 레프트21 기사를 달아 보자
+date: 2010-02-25T12:23:42+00:00
+author: 노동자 연대 웹마스터
+layout: post
+guid: http://work.local/webmaster/?p=204
+permalink: /archives/204
+tistory_id:
+  - 66
+categories:
+  - 사이트 이용안내
+tags:
+  - 노동자 연대
+  - 오픈캐스트
+---
+얼마 전에 &#8216;<a href="http://work.local/webmaster/55" target="_blank" class="broken_link">계륵, 레프트21 오픈캐스트</a>&#8216;라는 글을 쓴 적이 있는데 기억하시나 모르겠습니다.^^
+
+어쨌든, 네이버에 <a target="_blank" href="http://opencast.naver.com/LE759">레프트21 오픈캐스트</a>를 계속 발행하는 입장에서는 다양하게 활용할 방법을 고민하고 있습니다.
+
+일단, 가장 손쉽게 활용할 수 있는 방법을 알려 드립니다. 
+
+이 방법은 **<font class="Apple-style-span" color="#ff0000">티스토리, 텍스트큐브.com, 그리고 설치형 블로그나 홈페이지 운영자</font>**들이 가능한 방법입니다. 기타 가능한 서비스가 있을지 모르겠으나 제가 모르는 관게로;; 있으면 제보 주세요. ^^ (네이버와 다음, 이글루스에는 달 수 있는 방법이 없는 것 같아요.)
+
+<img src="http://work.local/webmaster/wp-content/uploads/1/cfile10.uf.1962AD4A4D0847451EC374.png" class="aligncenter" width="580" height="498" alt="" />
+
+와와 같은 형태로 나옵니다. 지금 이 블로그의 아래쪽에 가면 기사 목록이 있는 걸 볼 수 있으실 거에요.
+
+자, 티스토리와 텍스트큐브에 어떻게 달 수 있는지를 설명하겠습니다. 개인 홈페이지 운영자나 설치형 블로그 운영자라면 티스토리와 텍스트큐브에 어떻게 다는지 설명하면 알아서 달 수 있는 능력이 있을 거라 가정하겠습니다. ^^
+
+일단, 티스토리.
+
+<img src="http://work.local/webmaster/wp-content/uploads/1/cfile7.uf.111D894D4D08474526FAF2.png" class="aligncenter" width="127" height="142" alt="" />
+
+관리자모드에서 <span style="font-weight: bold;">스킨 > HTML/CSS편집</span>을 선택합니다.
+
+그리고 나서 <span style="font-weight: bold;">skin.html</span> 칸에서 <span style="font-weight: bold;"><a href="http://work.local/webmaster/wp-content/uploads/1/" /></a></span>을 찾습니다. 아래 보이시죠?
+
+<img src="http://work.local/webmaster/wp-content/uploads/1/cfile23.uf.1660964A4D0847462DA6F4.png" class="aligncenter" width="580" height="346" alt="" />그 줄의 바로 아래쪽에다가 아래 코드를 써 넣습니다.
+
+<!&#8211;레프트21 오픈캐스트&#8211;>  
+<div style=&#8221;text-align:center&#8221;>  
+<iframe title=&#8221;레프트21 오픈캐스트&#8221;
+  
+style=&#8221;margin: 0px auto;&#8221; name=&#8221;opencastframe&#8221; id=&#8221;opencastframe&#8221;
+  
+src=&#8221;http://widget.webtools.kr/opencast\_em.php?id=LE759&index=&is\_footer=1&is_feed=0&feed=&#8221;
+  
+width=&#8221;475&#8243; height=&#8221;336&#8243; border=&#8221;0&#8243; frameborder=&#8221;0&#8243; scrolling=&#8221;no&#8221;
+  
+marginheight=&#8221;0&#8243; marginwidth=&#8221;0&#8243;
+  
+allowtransparency=&#8221;true&#8221;></iframe>  
+</div>
+
+그리고 저장하면 끝!
+
+텍스트큐브도 비슷합니다. 메뉴가 조그 다를 뿐이죠. <span style="font-weight: bold;">꾸미기 > 스킨편집</span>을 선택합니다.
+
+<img src="http://work.local/webmaster/wp-content/uploads/1/cfile4.uf.2002FD564D0847452F8B3C.png" class="aligncenter" width="580" height="330" alt="" />
+
+거기서 역시나 <span style="font-weight: bold;">skin.html</span> 항목으로 가서 <span style="font-weight: bold;"><a href="http://work.local/webmaster/wp-content/uploads/1/" /></a></span>을 찾습니다.
+
+그리고 역시 위에서 말씀드린 코드를 그 아래쪽에 집어넣습니다.
+
+어때요? 간단하죠?
+
+그렇게 하면 블로그 글의 하단에 레프트21 오픈캐스트가 붙습니다.
+
+만약 글의 상단에 붙이고 싶다면 <span style="font-weight: bold;"><a href="http://work.local/webmaster/wp-content/uploads/1/" /></a></span>의 아래쪽이 아닌 위쪽에 코드를 삽입하시면 됩니다.
+
+사실 레프트21의 주요기사 목록 같은 걸 제가 직접 코드를 짜서 위젯으로 만들어 배포하고 싶었는데 시간이 나질 않네요. 일단 아쉬운대로 오픈캐스트로나마 대신하겠습니다. <a target="_blank" href="http://opencast.naver.com/LE759">오픈캐스트</a>도 나름대로 일주일에 한 번씩 업데이트가 되니까 충분히 도움이 될 거라 생각합니다.
+
+그럼&#8230;

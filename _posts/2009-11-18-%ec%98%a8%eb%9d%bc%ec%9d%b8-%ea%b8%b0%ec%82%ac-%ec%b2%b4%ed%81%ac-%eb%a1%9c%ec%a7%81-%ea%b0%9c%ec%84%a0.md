@@ -1,0 +1,119 @@
+---
+id: 152
+title: 온라인 기사 체크 로직 개선
+date: 2009-11-18T08:10:37+00:00
+author: 노동자 연대 웹마스터
+layout: post
+guid: http://work.local/webmaster/?p=152
+permalink: /archives/152
+tistory_id:
+  - 51
+categories:
+  - 개발 이야기
+tags:
+  - DB접속양
+  - 노동자 연대
+  - 로직
+  - 온라인기사
+---
+<span class="Apple-style-span" style="font-family: 돋움, Arial; line-height: normal; color: rgb(143, 126, 126); -webkit-border-horizontal-spacing: 2px; -webkit-border-vertical-spacing: 2px; ">&nbsp;* 이 포스트는 <strong>blog</strong>korea <a href="http://www.blogkorea.net/bnmsvc/chelMain.do?channelSeq=32283" target="_blank" style="color: rgb(121, 121, 121); text-decoration: none; " class="broken_link"><font id="BKCHSTART_32283BKCHEND" color="#6c0000">[<strong>블코채널 : </strong>웹마스터들의 이야기]</font></a>&nbsp;에 링크 되어있습니다.</span>
+
+<a href="http://wspaper.org/1_news_all.php" target="_blank">전체 기사 목록 보기</a>와, <a href="http://wspaper.org/1_all_online.php" target="_blank">온라인 기사 목록 보기</a>가 좀 성가시게 느린 것을 발견했습니다.
+
+그래서 언젠가 고쳐야지 생각을 하고 있다가, 오늘, 고쳤습니다.
+
+예민한 사람이 아니면 눈치를 못 챌 수도 있지만 말입니다.
+
+## 로직 개선 전후 속도 차이
+
+로직 개선 전에는 온라인 기사 목록 보기의 로딩 속도가 구글 크롬에서 <span style="color: rgb(255, 0, 0);"><strong>6.42초</strong></span>였습니다.
+
+로직 개선 후에는 **<span style="color: rgb(255, 0, 0);">1.31초</span>**로 줄어들었습니다. 다음 그림에서 확인해 보세요.
+
+(속도 측정에 사용한 사이트는 <a href="http://webwait.com/" target="_blank" class="broken_link">http://webwait.com</a>입니다.)
+
+<div style="width: 590px" class="wp-caption aligncenter">
+  <img src="http://work.local/webmaster/wp-content/uploads/1/cfile22.uf.16622A484D08472E20B23F.jpg" width="580" height="412" alt="" />
+  
+  <p class="wp-caption-text">
+    로직 개선 전 : 로딩 속도는 6.42초다.
+  </p>
+</div>
+
+<div style="width: 590px" class="wp-caption aligncenter">
+  <img src="http://work.local/webmaster/wp-content/uploads/1/cfile2.uf.185F9F484D08472E2EA6DA.jpg" width="580" height="409" alt="" />
+  
+  <p class="wp-caption-text">
+    로직 개선 후 : 로딩 속도는 1.31초다.
+  </p>
+</div>
+
+## 로직을 어떻게 고쳤나요?
+
+이 부분은 프로그래머가 아니면 잘 못 알아들을 것이니, 관심있는 분은 펼쳐서 보세요.
+
+[#M_펼쳐두기..|접어두기..|
+
+### 목록 불러오기 파트
+
+온라인 기사 목록을 불러올 때는 db에서 기사 관련 정보를 모두 불러오게 돼 있습니다.
+
+기사 관련 정보는 대충 말해서 기사id, 제목, 내용, 필자정보, 온라인여부 등이 있습니다.(당연히 온라인 여부를 물어서 온라인인 경우만 불러오게 돼 있습니다. 온라인 기사 목록 보기니까요.)
+
+### is_online 함수
+
+그리고 is_online이라는 함수를 통해 온라인 기사 여부를 측정합니다. 이 함수의 내용은 다음과 같습니다.
+
+<pre class="hljs"><code class="">&lt;br />
+function($기사id){&lt;br />
+ $query = "select * from 기사테이블 where 기사id='$기사id'";&lt;br />
+  //db접속해서 로딩&lt;br />
+ //온라인 기사인 게 확인되면 html 코드를 리턴&lt;br />
+}&lt;br />
+</code></pre>
+
+자, 기사 20개를 불러오면 DB에 20번 접속을 했던 것이죠.
+
+이게 시간이 많이 걸렸던 것입니다.
+
+### 옥상옥
+
+그런데 생각해 보세요. 어차피 온라인 기사만 불러왔습니다.
+
+그런데 온라인 여부를 또 검증할 필요가 없는 거죠.
+
+그래서, 과감하게 로직을 수정한 것입니다.
+
+DB에 접속할 필요가 없는 경우에는 DB접속을 하지 않고 바로 판단하도록 고쳤습니다.
+
+### 재사용을 위해 고려해야 했다
+
+사실 목록을 불러오는 부분도 include를 통해 재사용을 많이 하고, is_online 함수도 재사용을 많이 하는 함수입니다.
+
+만약 온라인 목록 부분만을 생각한다면 그냥 is_online을 통해 판별하는 부분을 지워버리면 됩니다.
+
+그러나 그렇게 하지 않고, is_online 함수에 인자값으로 $기사id와 $온라인여부를 모두 넣을 수 있도록 수정했습니다.
+
+그래서 아래처럼 수정을 한 것이지요.
+
+<pre class="hljs"><code class="">&lt;br />
+function is_online($option){&lt;br />
+    //만약 인자값이 Y나 N으로 돼 있으면 DB에 접속하지 않고 바로 처리한다.&lt;br />
+ if($option=='Y' || $option=='N'){&lt;br />
+   $YN = $option;&lt;br />
+  }else{&lt;br />
+    $query = "select * from cf_gisa where $기사id='$option'";&lt;br />
+   //디비에 접속해서 온라인 여부를 불러 온다.&lt;br />
+   $YN = $row[$온라인여부];&lt;br />
+ }&lt;br />
+   if($YN=="Y"){?&gt;&lt;br />
+    &lt;span class="online-only"&gt;online&lt;/span&gt;&lt;br />
+   &lt;?}&lt;br />
+}&lt;br />
+</code></pre>
+
+일반 독자분들은 이해하지 못할 수도 있지만, 제 뒤에 업무를 볼 수도 있는 웹마스터나 다른 웹마스터 분들을 위해서 이렇게 코드를 자세히 썼습니다. ^^ 그래도 처음 도입부에는 흥미를 끌 수 있을 만한 내용을 써서 두 마리 토끼를 다 잡으려 한 것이니 이해해 주세요.
+
+그럼&#8230;
+
+_M#]

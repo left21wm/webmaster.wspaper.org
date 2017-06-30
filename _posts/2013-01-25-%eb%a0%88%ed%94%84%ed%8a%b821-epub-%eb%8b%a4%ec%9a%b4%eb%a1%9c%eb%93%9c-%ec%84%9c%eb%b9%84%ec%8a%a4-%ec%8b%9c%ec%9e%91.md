@@ -1,0 +1,108 @@
+---
+id: 321
+title: 레프트21 EPUB 다운로드 서비스 시작
+date: 2013-01-25T12:29:49+00:00
+author: 노동자 연대 웹마스터
+layout: post
+guid: http://work.local/webmaster/?p=321
+permalink: /archives/321
+tistory_id:
+  - 93
+categories:
+  - 사이트 이용안내
+---
+[&#8216;레프트21 EPUB 다운로드 서비스를 중단합니다&#8217;](http://work.local/webmaster/archives/330 "레프트21 EPUB 다운로드 서비스를 중단합니다")를 참고하세요.
+
+&#8212;&#8212;
+
+전자책 시장이 성장하고 있습니다. 전자책 단말기 덕분이 아닙니다. 아이패드로 시작된 태블릿PC 열풍 덕분입니다. 전자책은 이제 한국 전체 도서 매출의 2%를 차지할 정도로 성장했습니다.
+
+한국 도서 시장 매출이 2011년에 2조 8천억 원이니까, 2%도 만만치 않은 사이즈예요. 수백억 규모가 됐다는 말입니다.
+
+더이상 전자책이 완전히 실험적인 시장은 아닌 것이죠. 적어도 얼리 어답터들은 한두 권씩 전자책을 사 봤을 거라는 말입니다.
+
+새로운 매체가 가능성을 보인다면 재빠르게 뛰어들어야겠죠. 그래서 레프트21 개발팀은 레프트21의 현재 호와 지난 호들을 각각 호수별로 epub 포맷으로 다운받을 수 있도록 했습니다.
+
+<div style="width: 294px" class="wp-caption aligncenter">
+  <img alt="" src="http://work.local/webmaster/wp-content/uploads/1/cfile29.uf.24485749510278F53B89FB.png" width="284" height="260" />
+  
+  <p class="wp-caption-text">
+    최신호 PDF 다운로드 바로 아래쪽에 epub 다운로드를 볼 수 있습니다.
+  </p>
+</div>
+
+데스크탑과 태블릿에선 저렇게 다운을 받으면 됩니다.
+
+지난 호를 다운받으려면, &#8216;지난 호 목록&#8217;에 가서 원하는 신문을 누른 다음 좌측을 살펴 보면 됩니다.
+
+<p style="text-align: center; clear: none; float: none;">
+  <img class="aligncenter" alt="" src="http://work.local/webmaster/wp-content/uploads/1/cfile24.uf.1446D633510292C01A91AA.png" width="361" height="293" />
+</p>
+
+이렇게 epub을 클릭해서 다운 받으면 됩니다.
+
+## 스마트폰에서 다운받기
+
+이미지들을 참고하셔야 합니다. 우선 &#8216;최신호 PDF&#8217;를 누릅니다.
+
+<p style="text-align: center; clear: none; float: none;">
+  <img class="aligncenter" alt="" src="http://work.local/webmaster/wp-content/uploads/1/cfile10.uf.243B0E3E51027EB80D1207.png" width="300" height="532" />
+</p>
+
+그리고 epub 다운로드를 누르면 되요.
+
+<div style="width: 310px" class="wp-caption aligncenter">
+  <img alt="" src="http://work.local/webmaster/wp-content/uploads/1/cfile27.uf.20211C4251027EFA3ADAA6.png" width="300" height="532" />
+  
+  <p class="wp-caption-text">
+    위 그림에서 &#8216;지난호·제휴자료&#8217;를 누르면 역시 지난 호 목록 페이지로 가게 됩니다.
+  </p>
+</div>
+
+그리 어려운 건 없습니다.
+
+## 전자책 앱
+
+아이폰의 경우, <a class="tx-link" href="https://itunes.apple.com/gb/app/ibooks/id364709193?mt=8" target="_blank">iBooks</a>라는 앱을 설치하면 됩니다. 안드로이드폰의 경우 <a class="tx-link" href="https://play.google.com/store/apps/details?id=com.flyersoft.moonreader" target="_blank">Moon+ Reader</a>나 <a class="tx-link" href="https://play.google.com/store/apps/details?id=org.geometerplus.zlibrary.ui.android" target="_blank">FBReader</a>를 설치해서 읽으시면 됩니다. 웹브라우저에서 다운받은 epub 파일을 각 앱으로 옮겨서 읽는 방법까지는 굳이 설명하지 않겠습니다. ^^ 주변에 물어 보면 금방 알려 줄 거예요.
+
+## epub 전자책의 장점
+
+epub이 뭐 특별히 대단한 건 아닙니다. 하지만, 스마트폰과 태블릿에서 글을 읽을 때 좀더 편안히, 책과 그나마 유사하게 읽을 수 있도록 해 주는 포맷이라는 데 의미가 있습니다.
+
+아래처럼 목차가 제공됩니다. (목차의 순서는 웹사이트의 기사 순서와 같습니다.)
+
+<p style="text-align: center; clear: none; float: none;">
+  <img class="aligncenter" alt="" src="http://work.local/webmaster/wp-content/uploads/1/cfile6.uf.1159B945510293A3140A02.png" width="300" height="533" />
+</p>
+
+밑줄을 그을 수 있고요.
+
+<p style="text-align: center; clear: none; float: none;">
+  <img class="aligncenter" alt="" src="http://work.local/webmaster/wp-content/uploads/1/cfile27.uf.222B6945510293A24C38F1.png" width="300" height="533" />
+</p>
+
+메모를 할 수도 있고, 밑줄과 메모는 나중에 모아서 볼 수 있습니다. 물론 책갈피 기능도 있습니다.
+
+<p style="text-align: center; clear: none; float: none;">
+  <img class="aligncenter" alt="" src="http://work.local/webmaster/wp-content/uploads/1/cfile9.uf.154C5B46510296470903E7.jpg" width="297" height="384" />
+</p>
+
+사용하시는 프로그램에서 책갈피와 밑줄, 메모 같은 것을 관리하니까 프로그램을 잘 관리해야 책 읽은 흔적이 사라지지 않겠죠. (전 개인적으로 아이폰 앱인 iReadItNow에 밑줄 친 문구를 다 복사해서 붙여 넣은 다음, 나중에 블로그로 모읍니다. 전자책 리더 앱에 의존적이지 않으려고 하는 거죠.)
+
+단어 검색이 되는 점, 메모와 밑줄을 모아서 이메일로 보낼 수 있다는 점도 좋은 점입니다.
+
+아이패드에서 보면 아래처럼 시원하게 보입니다.
+
+<p style="text-align: center; clear: none; float: none;">
+  <img class="aligncenter" alt="" src="http://work.local/webmaster/wp-content/uploads/1/cfile8.uf.115F5F4D510478230726A7.png" width="630" height="473" />
+</p>
+
+## 스마트폰이 주요 대상입니다
+
+사실 태블릿에서는 PDF로 읽는 게 좀더 나을 겁니다. (물론 제가 아는 친구는 아이패드에서도 전자책으로 신문을 보는 게 자긴 더 좋다고 하긴 했습니다. 개인차는 있겠죠.) epub 서비스를 런칭한 주요한 이유는 스마트폰에서 레프트21을 좀더 집중해서 볼 수 있기 때문입니다. 아무래도 클릭 클릭으로 기사를 옮겨 가며 보고, 밑줄이나 메모도 제한적인 상황보다는 전자책으로 만들어서 추가 클릭 없이, 추가 다운로드 없이, 밑줄도 치고 메모도 하면서 읽을 수 있을 때 좀더 집중이 잘 될 테니까 말입니다.
+
+## 팁
+
+레프트21 epub이 PDF에 비해 태블릿에서도 장점이 될 수 있는 것 하나는, 온라인 기사도 전자책엔 모두 포함된다는 점입니다. 온라인 기사를 한데 모아서 볼 수 있다는 장점이 있는 거지요. (아하, 지금 생각해 보니 온라인 기사만 모아서 epub으로 내려받을 수 있도록 하면 괜찮겠다는 생각이 드네요.)
+
+마지막으로, 팁을 드리자면, 나이트 모드(배경은 검정색, 글씨는 흰 색)로 보면 눈이 덜 아픕니다.(물론 전자책 리더기엔 해당 안 되고, 스마트폰과 태블릿에 해당하는 말입니다. 하지만 전자책 리더기를 가진 사람은 저 말고는 한 번도 못 봤으니;;)

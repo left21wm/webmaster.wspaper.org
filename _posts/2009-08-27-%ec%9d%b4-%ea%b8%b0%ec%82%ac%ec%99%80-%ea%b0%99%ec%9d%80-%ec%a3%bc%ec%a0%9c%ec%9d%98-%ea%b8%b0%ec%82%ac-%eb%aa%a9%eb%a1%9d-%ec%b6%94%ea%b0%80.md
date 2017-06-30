@@ -1,0 +1,30 @@
+---
+id: 121
+title: '&#8216;이 기사와 같은 주제의 기사&#8217; 목록 추가'
+date: 2009-08-27T07:46:37+00:00
+author: 노동자 연대 웹마스터
+layout: post
+guid: http://work.local/webmaster/?p=121
+permalink: /archives/121
+tistory_id:
+  - 36
+categories:
+  - 사이트 이용안내
+---
+안녕하세요 ^^ 지난 번 독자편지 목록을 하단에 출력한 데 이어 이번에는 &#8216;이 기사와 같은 주제의 기사&#8217;를 기사보기 하단에 출력하는 시스템을 마련했습니다.
+
+길게 이야기할 것 없이 그냥 그림을 보시면 이해하기 쉬우실 것 같습니다! ^^
+
+기사를 보면 맨 아래쪽에 아래 같은 게 있죠?
+
+<div style="width: 570px" class="wp-caption aligncenter">
+  <img src="http://work.local/webmaster/wp-content/uploads/1/cfile26.uf.120150534D08471D4E7E6D.png" width="560" height="400" alt="이 기사와 같은 주제의 기사" />
+  
+  <p class="wp-caption-text">
+    △ 기사를 다 읽고 아래쪽으로 내려가면 이런 목록을 만날 수 있습니다.
+  </p>
+</div>
+
+더 설명할 것은 없네요. ^^ 제가 바라는 것은, 이런 기능을 통해서 관련된 기사를 더 많이 읽고, 독자 분들이 진실을 더 많이 알게 되는 것이랍니다. 그럼 이만&#8230;
+
+참- 이런 노력 때문에 후원해야겠다! 싶은 분들은 <a href="http://wspaper.org/B_support.php?from=webmasterBlog" target="_blank">지금 바로 후원</a>하세요 ^^ ㅋ

@@ -1,0 +1,80 @@
+---
+id: 271
+title: 특별이슈 페이지 ― 기존 디자인의 일관성을 해치지 않는 디자인재설계
+date: 2011-02-14T10:30:40+00:00
+author: 노동자 연대 웹마스터
+layout: post
+guid: http://work.local/webmaster/?p=271
+permalink: /archives/271
+tistory_id:
+  - 81
+categories:
+  - 개발 이야기
+tags:
+  - 디자인일관성
+  - 디자인재설계
+  - 웹디자인
+  - 이집트혁명
+  - 제이콥닐슨
+---
+특별이슈 페이지. 그러니까 집중이슈 중에서 정말 특별히 강조하기 위해 만든 거예요. 현재 특별이슈 페이지는 <a title="[http://wspaper.org/6_issue.php?issue_no=87]로 이동합니다." target="_blank" href="http://wspaper.org/6_issue.php?issue_no=87">중동의 민중반란</a>입니다. 현재 이집트에서 벌어지고 있는 혁명은 전 세계 노동자들에게 큰 영감을 주고 있습니다. <a title="[http://wspaper.org/]로 이동합니다." target="_blank" href="http://wspaper.org/"><레프트21></a>에서도 이집트 소식들을 혁명적 관점에서 보는 기사들을 비중을 두고 다루고 있습니다. 그래서 특별이슈 페이지를 만들게 되었죠. 
+
+어떻게 바뀌었나구요? 예전페이지와 특별집중이슈를 적용한 페이지의 구조를 비교해보겠습니다.
+
+  
+
+
+<div style="width: 380px" class="wp-caption aligncenter">
+  <img src="http://work.local/webmaster/wp-content/uploads/1/cfile5.uf.1879A73E4D58FACC01F98A.png" width="370" height="331" alt="" filename="cfile5.uf.1879A73E4D58FACC01F98A.png" filemime="" />
+  
+  <p class="wp-caption-text">
+    기존 레프트21 첫화면입니다
+  </p>
+</div>
+
+위는 기존 <a title="[http://wspaper.org/]로 이동합니다." target="_blank" href="http://wspaper.org/"><레프트21></a> 첫화면 구조입니다. 특별이슈 페이지를 넣은 경우 아래와 같이 됩니다. 
+
+<div style="width: 380px" class="wp-caption aligncenter">
+  <img src="http://work.local/webmaster/wp-content/uploads/1/cfile26.uf.1269963E4D58FADA246C1F.png" width="370" height="369" alt="" filename="cfile26.uf.1269963E4D58FADA246C1F.png" filemime="" />
+  
+  <p class="wp-caption-text">
+    특별이슈페이지가 삽입된 경우
+  </p>
+</div>
+
+## 기존 디자인의 일관성을 해치지 않는 디자인재설계
+
+우리는 특별이슈 페이지를 디자인을 시작 할 때 외부로부터 다음과 같은 제안을 받았습니다. 새로운 첫화면을 만들어서 완전히 새롭게 &#8220;<a title="[http://wspaper.org/6_issue.php?issue_no=87]로 이동합니다." target="_blank" href="http://wspaper.org/6_issue.php?issue_no=87">이집트 혁명</a>&#8220;을 강조하고 원치 않는 사람들은 기존 첫화면으로 갈 수 있도록 링크를 제공하자는 것이었습니다. 이런 방법은 기존의 주류 홈페이지에서 자주 사용하던 방법이긴 합니다. 
+
+그러나 이 방법은 사용성 측면에서 좋지 않습니다. 
+
+제이콥 닐슨은 디자인 재설계를 위해 다음과 같은 조언을 했습니다. 
+
+> 일반적으로, 새로운 디자인은 나쁜 디자인이 될 것이다. 단순히 말해서 그것은 사용자의 기대를 무너뜨리기 때문이다. 더 좋은 전략은 친숙도로부터 출발하고 시스템이 어떻게 동작하는지에 대해서 사용자가 기대하고 있는 인식에 맞추어 설계하는 것이다.
+
+  
+> 
+> 
+> <a title="[http://www.oneweb.co.kr/?p=26]로 이동합니다." target="_blank" href="http://www.oneweb.co.kr/?p=26">새로운것 vs. 친숙한 것: 디자인 재설계를 위해서 얼마나 투자해야 할까</a> 
+
+즉, 전략의 출발점은 친숙도를 해치지 않는 것으로부터 시작되야 한다는 것입니다. 왜 그럴까요? 강조를 더 화끈하게 할 수록 사람들이 더 집중해서 볼 수 있지 않을까요? 그렇지 않습니다. 
+
+사람들은 익숙한 홈페이지의 레이아웃을 무의식중에 머리속으로 인식하고 있습니다. 그 인식정보를 바탕으로 홈페이지를 순식간에 훑어봅니다(읽는게 아니라). 이것은 불과 몇초도 걸리지 않는 과정입니다.  <span style="font-weight: bold;">사용자들의 이런 습관을 잘 활용한다면 디자인의 일관성을 해치지 않으면서도 작은 변화로도 충분히 강조를 줄 수 있습니다.</span> 그래서 제이콥 닐슨은 디자인을 혁신적으로 바꿨을 경우 사용자들이 혼란 [<sup>1</sup>](#note-271-1 "물론 모든 경우에 혁신적 재설계를 거부하는 것은 옳지 않습니다. 너무 오래되고 낡아 사용성에 문제가 많은 홈페이지는 사람들이 좀더 익숙하게 느끼는 디자인으로 새롭게 빠꿔야 할 수 도 있겠죠."){#return-note-271-1.simple-footnote}에 빠질 것이라고 경고합니다.
+
+이런 사용성에 관한 분석을 바탕으로 특별이슈 페이지를 만들었습니다. 상단에 강조할 집중이슈의 제목과 기사의 제목, 그리고 사진을 시원시원하게 배치했습니다. 기존의 디자인 훼손을 최소화하기 위해 나머지 부분은 기존과 같은 구조를 유지했습니다. 아래 그림과 같이 말이죠. 
+
+<img src="http://work.local/webmaster/wp-content/uploads/1/cfile29.uf.1615CA4C4D59026A1B4F18.png" class="aligncenter" width="630" height="563" alt="" filename="스크린샷.png" filemime="image/jpeg" />
+  
+위의 디자인이 최선의 디자인이라고 생각하지는 않습니다. 하지만 사용자를 배려하는 디자인을 위해 더욱 발전하는 홈페이지를 위해 노력할 겁니다. 더욱 발전하는 <a title="[http://wspaper.org/]로 이동합니다." target="_blank" href="http://wspaper.org/"><레프트21></a>이 될 수 있도록 독자여러분! 응원과 의견을 허심탄회하게 보내주세요~^^
+
+<div class="simple-footnotes">
+  <p class="notes">
+    Notes:
+  </p>
+  
+  <ol>
+    <li id="note-271-1">
+      물론 모든 경우에 혁신적 재설계를 거부하는 것은 옳지 않습니다. 너무 오래되고 낡아 사용성에 문제가 많은 홈페이지는 사람들이 좀더 익숙하게 느끼는 디자인으로 새롭게 빠꿔야 할 수 도 있겠죠. <a href="#return-note-271-1">&#8617;</a>
+    </li>
+  </ol>
+</div>
