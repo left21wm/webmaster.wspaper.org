@@ -4,7 +4,7 @@ title: RSS란 무엇이며 어떻게 사용하는 것일까
 date: 2009-03-23T06:59:08+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: https://webmaster.wspaper.org/archives/21
+guid: /archives/21
 permalink: /archives/21
 tistory_id:
   - 7
@@ -29,7 +29,7 @@ tags:
 그림과 함께 봅시다. 제가 사용하는 RSS 프로그램인 Google Reader를 이용해보겠습니다. 다른 프로그램도 기본 매커니즘이 같으니까 이걸로만 설명해도 무리 없을 겁니다.
 
 <p style="text-align: center;">
-  <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile29.uf.155FFF4B4D0846F0093979.gif" width="500" height="207" alt="그림1 - 레프트21 RSS마크 위치" title="" />
+  <img src="/wp-content/uploads/1/cfile29.uf.155FFF4B4D0846F0093979.gif" width="500" height="207" alt="그림1 - 레프트21 RSS마크 위치" title="" />
 </p>
 
 위의 마크를 클릭하면 레프트21의 RSS 주소가 나옵니다. ‘구글RSS에 추가하기’나 ‘한RSS에 추가하기’ 등의 링크도 있지만, 일단 이건 나중에 설명하겠습니다.
@@ -39,7 +39,7 @@ tags:
 자, RSS 주소를 긁었으면 <a href="http://google.co.kr/reader" target="_blank" title="이동합니다">구글리더(Google Reader)로 이동</a>합니다. 이동해서 로그인을 하셔야 하는데 이걸 읽는 분들은 대부분 가입이 안 돼 있겠죠? 가입을 하시면 됩니다.
 
 <p style="text-align: center;">
-  <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile24.uf.2065CE494D0846F1117E7E.gif" width="540" height="323" alt="그림2 - 구글리더 로그인화면" title="" />
+  <img src="/wp-content/uploads/1/cfile24.uf.2065CE494D0846F1117E7E.gif" width="540" height="323" alt="그림2 - 구글리더 로그인화면" title="" />
 </p>
 
 <a href="http://www.hanrss.com/" target="_blank" title="이동합니다">한RSS</a>를 이용하시거나 <a href="http://nowdac.com/2460682" target="_blank" title="‘RSS리더 프로그램 3종 세트!’를 소개한 블로그 글을 봅니다" class="broken_link">RSS 프로그램</a>을 이용하셔도 됩니다. 이에 대한 설명은 설명된 다른 포스트를 링크하겠으니 거기서 참고하세요 ^^ 여기서는 구체적 이용방법보다는 개념에 대해 설명하려고 합니다. 개념을 이해하면 다른 수단을 이용해도 무리가 없거든요.
@@ -47,19 +47,19 @@ tags:
 다음은 구글리더에 로그인한 화면입니다.
 
 <p style="text-align: center;">
-  <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile22.uf.19678F494D0846F109701C.gif" width="540" height="324" alt="그림3 - 구글리더에 로그인한 화면" title="" />
+  <img src="/wp-content/uploads/1/cfile22.uf.19678F494D0846F109701C.gif" width="540" height="324" alt="그림3 - 구글리더에 로그인한 화면" title="" />
 </p>
 
 왼쪽 상단에 보면 ‘구독추가’라는 부분이 있습니다. 여기를 클릭해 보세요. ^^ 그러면 주소를 입력하도록 나옵니다.
 
 <p style="text-align: center;">
-  <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile10.uf.1660964A4D0846F12B26AD.gif" width="320" height="113" alt="그림4 - 구독추가화면" title="" />
+  <img src="/wp-content/uploads/1/cfile10.uf.1660964A4D0846F12B26AD.gif" width="320" height="113" alt="그림4 - 구독추가화면" title="" />
 </p>
 
 이렇게, 복사한 레프트21의 RSS 주소를 창에 붙여넣고 추가 버튼을 누릅니다. 그럼 아래 그림처럼, 레프트21의 이번 호가 좌악 배달됩니다. 물론 새 기사가 등록되면 몇 십분 안에 곧장 이 곳으로 배달돼 오지요.
 
 <p style="text-align: center;">
-  <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile10.uf.1403EE544D0846F124A21A.gif" width="540" height="323" alt="그림5 - 구독추가 결과" title="" />
+  <img src="/wp-content/uploads/1/cfile10.uf.1403EE544D0846F124A21A.gif" width="540" height="323" alt="그림5 - 구독추가 결과" title="" />
 </p>
 
 ## 일단, 중간정리
@@ -69,7 +69,7 @@ tags:
 보통 사이트들에 보면 RSS마크가 있습니다. 주로 사용되는 곳은 블로그와 언론입니다.
 
 <p style="text-align: center;">
-  <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile7.uf.137CA7524D0846F23BDFAB.gif" width="540" height="300" alt="그림6 - 여러 RSS마크들" title="" />
+  <img src="/wp-content/uploads/1/cfile7.uf.137CA7524D0846F23BDFAB.gif" width="540" height="300" alt="그림6 - 여러 RSS마크들" title="" />
 </p>
 
 이런 마크들을 클릭하면 해당 RSS의 주소로 이동하게 되지요.
@@ -78,18 +78,18 @@ tags:
 
 자, 그런데 여기 중요합니다. 이거 안 보시면 헷갈릴 수도 있어요. 그런데 RSS 마크를 클릭하면 RSS 주소가 나오는 게 아니라 이상한 화면이 나옵니다. 이것 때문에 제가 RSS를 처음 구독할 때 완전히 헷갈려 버렸죠!
 
-자, 블로그 중에 하나만 골라서 클릭해봅시다. 여기 웹마스터 <a href="https://webmaster.wspaper.org/webmaster/rss" target="_blank" title="이동합니다">블로그 우측 상단에 있는 RSS버튼을 클릭</a>해보세요. 만약 여러분이 인터넷 익스플로러6를 사용하고 있으시면 아래와 같은 화면이 나오게 될 겁니다.
+자, 블로그 중에 하나만 골라서 클릭해봅시다. 여기 웹마스터 <a href="/webmaster/rss" target="_blank" title="이동합니다">블로그 우측 상단에 있는 RSS버튼을 클릭</a>해보세요. 만약 여러분이 인터넷 익스플로러6를 사용하고 있으시면 아래와 같은 화면이 나오게 될 겁니다.
 
 <p style="text-align: center;">
-  <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile29.uf.17612B494D0846F2393DB2.gif" width="540" height="325" alt="그림7 - 익스플로러에서 RSS 주소로 들어가면 나오는 화면" title="" />
+  <img src="/wp-content/uploads/1/cfile29.uf.17612B494D0846F2393DB2.gif" width="540" height="325" alt="그림7 - 익스플로러에서 RSS 주소로 들어가면 나오는 화면" title="" />
 </p>
 
 구글 크롬이나 파이어폭스의 화면은 조금씩 다르지만 개념은 같으니 굳이 화면을 첨부하진 않겠습니다.
 
-이건 RSS의 소스를 그대로 읽은 건데요, 굳이 구체적인 것까지 아실 필요는 없습니다. 아셔야 할 건 바로 이것! 그냥 주소 표시줄에 있는 것을 긁어다 붙이면 된다는 것이지요. 아래 그림에서 빨간 테두리 쳐 놓은 부분을 긁어서 구독 추가에 넣으시면 된다는 말입니다. 이 웹마스터 블로그의 경우 https://webmaster.wspaper.org/webmaster/rss 인 것이죠. 이 주소를 긁어서 붙이면 된다는 말씀입니다.
+이건 RSS의 소스를 그대로 읽은 건데요, 굳이 구체적인 것까지 아실 필요는 없습니다. 아셔야 할 건 바로 이것! 그냥 주소 표시줄에 있는 것을 긁어다 붙이면 된다는 것이지요. 아래 그림에서 빨간 테두리 쳐 놓은 부분을 긁어서 구독 추가에 넣으시면 된다는 말입니다. 이 웹마스터 블로그의 경우 /webmaster/rss 인 것이죠. 이 주소를 긁어서 붙이면 된다는 말씀입니다.
 
 <p style="text-align: center;">
-  <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile7.uf.181B4B4F4D0846F233523D.gif" width="476" height="253" alt="그림8 - 익스플로러 RSS 주소 긁는 화면" title="" />
+  <img src="/wp-content/uploads/1/cfile7.uf.181B4B4F4D0846F233523D.gif" width="476" height="253" alt="그림8 - 익스플로러 RSS 주소 긁는 화면" title="" />
 </p>
 
 간단하죠?
@@ -99,7 +99,7 @@ tags:
 자, 그럼 아래와 같은 화면이 나옵니다.
 
 <p style="text-align: center;">
-  <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile10.uf.14036D534D0846F22D1F1F.gif" width="540" height="362" alt="그림9 - 레프트21 RSS 화면" title="" />
+  <img src="/wp-content/uploads/1/cfile10.uf.14036D534D0846F22D1F1F.gif" width="540" height="362" alt="그림9 - 레프트21 RSS 화면" title="" />
 </p>
 
 이 경우도 마찬가진데, 위의 주소표시줄을 긁어서 붙이면 됩니다. 그런데 한 단계 더 나아가서 생각해봅시다. 빨간 테두리를 친 부분 보이시나요? 왠 버튼들이 모여 있죠? 이건 꽤 재밌는 서비스인데, 개념을 잘 못 이해하면 힘들어지는 경우죠.
@@ -109,13 +109,13 @@ My Yahoo, newsgator, MYAOL, BLOGLINES, netvibes, Google, Pageflakes 등 빨간 �
 자, 한 번 Google 버튼을 클릭해볼까요?
 
 <p style="text-align: center;">
-  <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile25.uf.2022D34F4D0846F20FA16E.gif" width="540" height="300" alt="그림10notlogin - 로그인 안 한 상태로 구글 자동 등록을 클릭했을 때" title="" />
+  <img src="/wp-content/uploads/1/cfile25.uf.2022D34F4D0846F20FA16E.gif" width="540" height="300" alt="그림10notlogin - 로그인 안 한 상태로 구글 자동 등록을 클릭했을 때" title="" />
 </p>
 
 만약 구글 리더에 로그인하지 않은 상태하면 위와 같은 화면이 나옵니다.
 
 <p style="text-align: center;">
-  <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile27.uf.1921614C4D0846F21DC7EA.gif" width="540" height="301" alt="그림10login - 로그인 한 상태로 구글 자동 등록" title="" />
+  <img src="/wp-content/uploads/1/cfile27.uf.1921614C4D0846F21DC7EA.gif" width="540" height="301" alt="그림10login - 로그인 한 상태로 구글 자동 등록" title="" />
 </p>
 
 만약 구글 리더에 로그인한 상태라면 위와 같은 화면이 나옵니다.
@@ -127,7 +127,7 @@ My Yahoo, newsgator, MYAOL, BLOGLINES, netvibes, Google, Pageflakes 등 빨간 �
 이렇게 자동으로 등록할 수 있도록 하는 버튼을 우리 레프트21에서도 제공하고 있습니다. RSS 버튼을 눌렀을 때 아래와 같은 화면이 나오죠?
 
 <p style="text-align: center;">
-  <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile24.uf.2004655A4D0846F325A244.gif" width="382" height="286" alt="그림11 - 레프트21 RSS 창" title="" />
+  <img src="/wp-content/uploads/1/cfile24.uf.2004655A4D0846F325A244.gif" width="382" height="286" alt="그림11 - 레프트21 RSS 창" title="" />
 </p>
 
 여기서 빨간 테두리를 친 부분을 클릭하면 이렇게 자동 등록하는 화면으로 이동합니다. 한RSS의 자동등록도 제공하고 있죠. 우리나라에서 가장 많이 사용하는 것이 구글리더와 한RSS니까요.

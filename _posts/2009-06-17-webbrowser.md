@@ -4,7 +4,7 @@ title: '[웹서핑팁] 웹브라우저 화면확대/전체화면 기능'
 date: 2009-06-17T17:57:20+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: https://webmaster.wspaper.org/archives/87
+guid: /archives/87
 permalink: /archives/87
 tistory_id:
   - 26
@@ -15,7 +15,7 @@ categories:
 
 많은 사람들이 윈도우에 기본으로 딸려있는 웹서핑 프로그램(인터넷 익스플로러)을 ‘인터넷’이라고 부른다. 바탕화면에서 인터넷 익스플로러 아이콘이 사라지면 “야, 인터넷 어디갔어?”하는 말을 듣곤 한다. 아주 잘못된 용어다. 정확히 말해 그건 인터넷을 돌아다닐 수 있도록 해주는 프로그램이며, 프로그램의 완전한 이름은 ‘마이크로소프트 인터넷 익스플로러’다. 아래 로고를 참고하라.
 
-<img class="aligncenter" alt="사용자 삽입 이미지" src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile4.uf.2062EC4A4D08470D1B2ED4.jpg" width="540" height="300" />
+<img class="aligncenter" alt="사용자 삽입 이미지" src="/wp-content/uploads/1/cfile4.uf.2062EC4A4D08470D1B2ED4.jpg" width="540" height="300" />
 
 <p class="caption">
   △위의 로고는 ‘인터넷’ 로고가 아니다. 웹서핑을 할 수 있게 해 주는 마이크로소프트사의 프로그램, ‘인터넷 익스플로러’의 로고다.
@@ -31,7 +31,7 @@ categories:
 
 언젠가 봤던 익스플로러7의 탭브라우징 기능을 떠올렸다. 그렇게 하면 좀더 컴퓨터 메모리를 덜 잡아먹지 않을까 하는 생각이 들었다. 그래서 익스플로러7으로 업그레이드를 시도했다. 결과는 실패. 마이크로소프트 웹사이트는 다운로드 버튼이 너무 작다! 다운로드 버튼 찾느라 헤매고, 웬만큼 컴퓨터를 사용해봤음에도 32bit, 64bit 등 왠 윈도우 종류가 그렇게 많은지 헷갈리기 그지없었고, 그 오랜 다운로드 시간에 지치고, 이 고생 끝에 결국 실행버튼을 눌렀을 때 윈도우 종류를 잘못 골랐음을 알게 된 것이다. 열받아서 관뒀다.
 
-<img class="aligncenter" alt="사용자 삽입 이미지" src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile28.uf.1563B6494D08470C1A767E.png" width="531" height="404" />
+<img class="aligncenter" alt="사용자 삽입 이미지" src="/wp-content/uploads/1/cfile28.uf.1563B6494D08470C1A767E.png" width="531" height="404" />
 
 <p style="text-align: center;">
   △구글 크롬의 탭브라우징 모습. 맨 위쪽에 여러 사이트가 탭으로 돼 있는 것을 볼 수 있다. 윈도우 아래쪽의 작업 표시줄 정보와, 웹서핑 정보가 섞이지 않아서 좋다.
@@ -45,7 +45,7 @@ categories:
 
 화면 확대 기능 : 말 그대로 화면을 확대한다. 그래서 글자 크기를 비롯, 전체 화면이 더 크게 보인다. 글자가 너무 작아서 짜증났던 분들에게 유용한 팁. 이 기능을 사용하면 화면이 아래처럼 변한다. 아래는 구글 크롬에서 화면을 확대한 것.
 
-<img class="aligncenter" alt="사용자 삽입 이미지" src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile22.uf.187F8E5A4D08470C250311.png" width="539" height="337" />
+<img class="aligncenter" alt="사용자 삽입 이미지" src="/wp-content/uploads/1/cfile22.uf.187F8E5A4D08470C250311.png" width="539" height="337" />
 
 <div style="text-align: center;">
   △마우스 우클릭했을 때 나오는 메뉴와 비교했다. 확대된 것을 알 수 있을 것이다.
@@ -53,7 +53,7 @@ categories:
 
 전체화면 기능 : 이건 위아래 메뉴바를 다 없애고 화면 전체에 내용 부분만 띄우는 기능이다. 요새는 넷북이나 노트북을 많이 쓰는데 이런 기기들은 좌우가 길고 위아래가 좁다.(한마디로 모니터가 와이드다. 16:9란 소리다. 데스크탑 모니터는 4:3 비율이다.) 이 때 전체화면 기능을 사용하면 화면을 위아래로 더 늘릴 수 있다. 아래는 파이어폭스에서 전체화면 기능을 사용한 화면과, 사용하지 않은 화면이다.
 
-<img class="aligncenter" alt="사용자 삽입 이미지" src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile8.uf.176373484D08470B154AFD.png" width="550" height="344" /><img class="aligncenter" alt="사용자 삽입 이미지" src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile2.uf.171EC44F4D08470C23DAD0.png" width="550" height="344" />
+<img class="aligncenter" alt="사용자 삽입 이미지" src="/wp-content/uploads/1/cfile8.uf.176373484D08470B154AFD.png" width="550" height="344" /><img class="aligncenter" alt="사용자 삽입 이미지" src="/wp-content/uploads/1/cfile2.uf.171EC44F4D08470C23DAD0.png" width="550" height="344" />
 
 <p style="text-align: center;">
   △보통 화면은 전체화면 모드에 보이는 아기들이 다 잘려서 나온다.

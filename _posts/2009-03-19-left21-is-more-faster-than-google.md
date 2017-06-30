@@ -4,7 +4,7 @@ title: 구글과 맞먹는 속도, 레프트21 인덱스화면
 date: 2009-03-19T03:39:20+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: https://webmaster.wspaper.org/archives/18
+guid: /archives/18
 permalink: /archives/18
 tistory_id:
   - 6
@@ -19,7 +19,7 @@ tags:
   - 속도
   - 웹접근성
 ---
-지난번에는 <a href="https://webmaster.wspaper.org/webmaster/5" target="_blank" class="broken_link">‘속도를 강조한 레프트21 홈페이지’라는 글</a>을 썼죠. 그 글에선 이 홈페이지를 어떤 철학으로 디자인했는지 말씀드렸습니다. 이번에는 자랑을 좀 하려고 글을 씁니다. ^^
+지난번에는 <a href="/webmaster/5" target="_blank" class="broken_link">‘속도를 강조한 레프트21 홈페이지’라는 글</a>을 썼죠. 그 글에선 이 홈페이지를 어떤 철학으로 디자인했는지 말씀드렸습니다. 이번에는 자랑을 좀 하려고 글을 씁니다. ^^
 
 ## 구글과 맞먹는 속도로 빨리진 인덱스 화면
 
@@ -151,7 +151,7 @@ tags:
   </table>
   
   <p style="text-align: center;">
-    <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile23.uf.151DD8504D0846EE26919D.jpg" width="483" height="333" alt="각 사이트 로딩 속도 비교 그래프, 레프트21이 가장 빠르다" title="각 사이트 로딩 속도 비교 그래프, 레프트21이 가장 빠르다" />
+    <img src="/wp-content/uploads/1/cfile23.uf.151DD8504D0846EE26919D.jpg" width="483" height="333" alt="각 사이트 로딩 속도 비교 그래프, 레프트21이 가장 빠르다" title="각 사이트 로딩 속도 비교 그래프, 레프트21이 가장 빠르다" />
   </p>
   
   <p>
@@ -247,7 +247,7 @@ tags:
   </p>
   
   <p style="text-align: center;">
-    <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile23.uf.19025A564D0846EE2C2A7D.jpg" width="540" height="728" alt="레프트21 인덱스와 한겨레, 조선일보, 다음, 구글의 로딩 속도를 비교한 것. 레프트21이 모두 이겼다." title="" />
+    <img src="/wp-content/uploads/1/cfile23.uf.19025A564D0846EE2C2A7D.jpg" width="540" height="728" alt="레프트21 인덱스와 한겨레, 조선일보, 다음, 구글의 로딩 속도를 비교한 것. 레프트21이 모두 이겼다." title="" />
   </p>
   
   <p>

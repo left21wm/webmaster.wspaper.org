@@ -4,7 +4,7 @@ title: 'SMACSS - 유연하고 모듈화된 CSS 방법론 학습 - 들어가며'
 date: 2013-04-30T18:24:56+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: 'https://webmaster.wspaper.org/?post_type=devsharing&#038;p=396'
+guid: '/?post_type=devsharing&#038;p=396'
 permalink: /archives/devsharing/smacss-유연하고-모듈화된-css-방법론-학습-들어가며
 ---
 
