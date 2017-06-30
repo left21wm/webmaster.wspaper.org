@@ -4,7 +4,7 @@ title: '[웹서핑팁] 웹브라우저 화면확대/전체화면 기능'
 date: 2009-06-17T17:57:20+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: https://webmaster.wspaper.org/?p=87
+guid: https://webmaster.wspaper.org/archives/87
 permalink: /archives/87
 tistory_id:
   - 26

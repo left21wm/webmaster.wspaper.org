@@ -4,7 +4,7 @@ title: 더 효과적으로 검색 기능을 활용하자!
 date: 2009-04-28T04:30:26+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: https://webmaster.wspaper.org/?p=46
+guid: https://webmaster.wspaper.org/archives/46
 permalink: /archives/46
 tistory_id:
   - 14

@@ -4,7 +4,7 @@ title: RSS란 무엇이며 어떻게 사용하는 것일까
 date: 2009-03-23T06:59:08+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: https://webmaster.wspaper.org/?p=21
+guid: https://webmaster.wspaper.org/archives/21
 permalink: /archives/21
 tistory_id:
   - 7

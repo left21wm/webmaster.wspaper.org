@@ -4,7 +4,7 @@ title: 우편번호 DB 업데이트 미션 컴플리트!
 date: 2009-03-26T04:16:26+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: https://webmaster.wspaper.org/?p=34
+guid: https://webmaster.wspaper.org/archives/34
 permalink: /archives/34
 tistory_id:
   - 8

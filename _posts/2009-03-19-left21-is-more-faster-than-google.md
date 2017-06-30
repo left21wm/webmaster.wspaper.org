@@ -4,7 +4,7 @@ title: 구글과 맞먹는 속도, 레프트21 인덱스화면
 date: 2009-03-19T03:39:20+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: https://webmaster.wspaper.org/?p=18
+guid: https://webmaster.wspaper.org/archives/18
 permalink: /archives/18
 tistory_id:
   - 6

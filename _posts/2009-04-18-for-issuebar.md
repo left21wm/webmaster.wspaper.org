@@ -4,7 +4,7 @@ title: 홈페이지, 디자인과 가독성
 date: 2009-04-18T16:27:52+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: https://webmaster.wspaper.org/?p=42
+guid: https://webmaster.wspaper.org/archives/42
 permalink: /archives/42
 tistory_id:
   - 12

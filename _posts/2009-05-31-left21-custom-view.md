@@ -4,7 +4,7 @@ title: 레프트21의 제휴자료를 효과적으로 찾아 보자
 date: 2009-05-31T15:14:43+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: https://webmaster.wspaper.org/?p=73
+guid: https://webmaster.wspaper.org/archives/73
 permalink: /archives/73
 tistory_id:
   - 23
