@@ -4,7 +4,7 @@ title: 레프트21의 제휴자료를 효과적으로 찾아 보자
 date: 2009-05-31T15:14:43+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: http://work.local/webmaster/?p=73
+guid: https://webmaster.wspaper.org/?p=73
 permalink: /archives/73
 tistory_id:
   - 23
@@ -27,19 +27,19 @@ categories:
 
 자, 그럼 제휴자료를 매체별, 호수별로 어떻게 보느냐. 아래를 참고하세요.
 
-<img src="http://work.local/webmaster/wp-content/uploads/1/cfile1.uf.1107A6544D0847001C5544.gif" class="alignleft" width="286" height="258" alt="사용자 삽입 이미지" />
+<img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile1.uf.1107A6544D0847001C5544.gif" class="alignleft" width="286" height="258" alt="사용자 삽입 이미지" />
 
-좌측은 <a href="http://work.local/webmaster/webmaster/24" target="_blank" class="broken_link">연두님이 새로 디자인한 레프트21 맞춤보기 항목</a>입니다. 첫 화면 오른쪽 위에 있죠. 여기서 <a href="http://wspaper.org/4_oldies_cover.php" target="_blank"><b>지난호ㆍ제휴자료 보기 메뉴</b>를 클릭</a>합니다. 그러면 아래같은 화면이 나오죠.
+좌측은 <a href="https://webmaster.wspaper.org/webmaster/24" target="_blank" class="broken_link">연두님이 새로 디자인한 레프트21 맞춤보기 항목</a>입니다. 첫 화면 오른쪽 위에 있죠. 여기서 <a href="http://wspaper.org/4_oldies_cover.php" target="_blank"><b>지난호ㆍ제휴자료 보기 메뉴</b>를 클릭</a>합니다. 그러면 아래같은 화면이 나오죠.
 
-<img src="http://work.local/webmaster/wp-content/uploads/1/cfile24.uf.165F124B4D0846FF0C42BF.gif" class="aligncenter" width="560" height="445" alt="사용자 삽입 이미지" />
+<img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile24.uf.165F124B4D0846FF0C42BF.gif" class="aligncenter" width="560" height="445" alt="사용자 삽입 이미지" />
 
 자, 여기서 눈여겨 볼 곳은 두 군데입니다. 왼쪽에 호수가 나열돼 있고, 버튼이 놓여있죠? 제휴자료 보기 버튼입니다. 저 버튼을 눌러보시면? 아래처럼 화면이 변합니다. 아래 그림의 왼쪽을 보시면 ‘**제휴자료 목록**‘이라고 나오고 목록이 주욱 있는 게 보이시죠?
 
-<img src="http://work.local/webmaster/wp-content/uploads/1/cfile6.uf.20033D554D0847002DD3D8.gif" class="aligncenter" width="560" height="428" alt="사용자 삽입 이미지" />
+<img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile6.uf.20033D554D0847002DD3D8.gif" class="aligncenter" width="560" height="428" alt="사용자 삽입 이미지" />
 
 그리고 오른쪽에 있는 <a href="http://wspaper.org/4_oldies_concern.php" target="_blank">‘제휴자료’ 탭을 클릭</a>하면, 이렇게 제휴자료들의 표지가 보입니다.
 
-<img src="http://work.local/webmaster/wp-content/uploads/1/cfile8.uf.1701E6574D084700327B36.gif" class="aligncenter" width="560" height="448" alt="사용자 삽입 이미지" />
+<img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile8.uf.1701E6574D084700327B36.gif" class="aligncenter" width="560" height="448" alt="사용자 삽입 이미지" />
 
 어떻게 사용하는지 아시겠죠? 간단합니다. ^^ 이걸로 더 많은 사람들이 자료를 잘 찾아볼 수 있게 됐으면 좋겠습니다.
 

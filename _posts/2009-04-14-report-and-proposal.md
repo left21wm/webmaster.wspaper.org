@@ -4,7 +4,7 @@ title: 홈페이지 오류신고, 개선사항 제안 페이지
 date: 2009-04-14T10:45:49+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: http://work.local/webmaster/?p=41
+guid: https://webmaster.wspaper.org/?p=41
 permalink: /archives/41
 tistory_id:
   - 10

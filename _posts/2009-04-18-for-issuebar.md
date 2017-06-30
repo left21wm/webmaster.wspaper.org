@@ -4,7 +4,7 @@ title: 홈페이지, 디자인과 가독성
 date: 2009-04-18T16:27:52+00:00
 author: 노동자 연대 웹마스터
 layout: post
-guid: http://work.local/webmaster/?p=42
+guid: https://webmaster.wspaper.org/?p=42
 permalink: /archives/42
 tistory_id:
   - 12
@@ -35,7 +35,7 @@ tags:
 어쨌든, 이런 조건에서 개발자와 디자이너가 합심! 인덱스 화면을 좀 고쳤습니다. 그리고 그 중의 핵심은 바로 <a href="http://wspaper.org/6_all_issue.php" target="_blank" title="집중이슈 바로 가기" class="broken_link">집중이슈</a>가 나오는 바입니다. 어딜 말하는지 모르실 분들을 위해 그림 첨부!
 
 <p style="text-align: center;">
-  <img src="http://work.local/webmaster/wp-content/uploads/1/cfile3.uf.19247B4D4D0846F704B2DC.gif" width="540" height="337" />
+  <img src="https://webmaster.wspaper.org/wp-content/uploads/1/cfile3.uf.19247B4D4D0846F704B2DC.gif" width="540" height="337" />
 </p>
 
 바로 윗부분을 <a href="http://wspaper.org/6_all_issue.php" target="_blank" title="집중이슈 바로 가기" class="broken_link">집중이슈</a>바라고 우리는 부릅니다. ^^
