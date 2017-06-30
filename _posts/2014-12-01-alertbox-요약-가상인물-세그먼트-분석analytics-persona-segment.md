@@ -5,7 +5,7 @@ date: 2014-12-01T15:15:58+00:00
 author: 노동자 연대 웹마스터
 layout: post
 guid: 'https://webmaster.wspaper.org/?post_type=devsharing&#038;p=445'
-permalink: /archives/445
+permalink: /archives/devsharing/alertbox-요약-가상인물-세그먼트-분석analytics-persona-segment
 ---
 원문은 <http://www.nngroup.com/articles/analytics-persona-segment/> 이고, 대충 내용을 번역한 것임.
 

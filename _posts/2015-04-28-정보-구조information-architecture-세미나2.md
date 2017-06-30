@@ -5,7 +5,7 @@ date: 2015-04-28T12:22:34+00:00
 author: 노동자 연대 웹마스터
 layout: post
 guid: 'https://webmaster.wspaper.org/?post_type=devsharing&#038;p=451'
-permalink: /archives/451
+permalink: /archives/devsharing/정보-구조information-architecture-세미나2
 ---
 Peter Morville & Louis Rosenfeld의 Information Architecture for the World Wide Web 세미나를 위해 정리한 것입니다.
 
